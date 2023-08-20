@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="329"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+				<node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Wild Shape Combat"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat;Shout_WildShape_Combat_Badger;Shout_WildShape_Combat_Spider;Shout_WildShape_Combat_Wolf_Dire;Shout_WildShape_Combat_Cat;Shout_Wildshape_Combat_Boar"/>
+                    <attribute id="UUID" type="guid" value="2df1a00f-a66a-4240-a505-6a7835f2f1fa"/>
+                </node>
+				<node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Druid Wild Shape Combat 6"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Wildshape_Combat_Panther;Shout_WildShape_Combat_Owlbear;Shout_WildShape_Combat_Spider_Sword"/>
+                    <attribute id="UUID" type="guid" value="c3221a24-3bf7-4475-a675-1b5d87f650f0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
