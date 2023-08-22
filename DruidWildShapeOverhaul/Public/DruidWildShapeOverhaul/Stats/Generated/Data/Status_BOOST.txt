@@ -1,0 +1,8 @@
+new entry "BoneCageResist"
+type "PassiveData"
+data "DisplayName" "h7875e2a1gcf92g4f88ga4b5g8271e87d562b;1"
+data "Description" "h8c90ac2egb3afg496dga31dge3483da494cb;1"
+data "Icon" "GenericIcon_DamageType_Slashing"
+data "Properties" "Highlighted"
+data "OnApplyFunctors" "UseActionResource(SELF, ActionPoint,1)"
+data "OnApplyConditions" "SG_DropForNonMutingDialog"

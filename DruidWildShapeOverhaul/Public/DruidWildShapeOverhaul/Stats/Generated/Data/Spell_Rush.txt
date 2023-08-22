@@ -1,0 +1,6 @@
+new entry "Rush_Rush_Boar_Player"
+type "SpellData"
+data "SpellType" "Rush"
+using "Rush_Rush_Boar_Summon"
+data "TargetConditions" ""
+data "UseCosts" "ActionPoint:1"

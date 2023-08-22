@@ -1,4 +1,15 @@
 <contentList>
 	<content contentuid="h8431d5fdg0997g406eg9715g295693b3a67c" version="1">Wild Shape: Sword Spider</content>
 	<content contentuid="h3333521dg999bg4aa6g8d08gf0333fdcf24f" version="1">Shapeshift into a Sword Spider.</content>
+	<content contentuid="h94d3b9d9g884dg4103gb633gf84708810d24" version="1">Wild Shape: Phase Spider</content>
+	<content contentuid="hd196b0dag7fa4g4a10g9410g0e00e9af50b4" version="1">Shapeshift into a Phase Spider.</content>
+	<content contentuid="he000d580g23a7g4b04ga89ag16183f32fb1e" version="1">Shapeshifted!</content>
+	<content contentuid="h5409f2b2g01e9g49f6gbfb7g8004e19b4ca9" version="1">Wild Shape: Hyena</content>
+	<content contentuid="h4931aea7g2377g47eagac9fg354be61fc658" version="1">Shapeshift into a Hyena.</content>
+	<content contentuid="hb832757eg3a53g4281g8418g75f927f7f25c" version="1">Trip Attack.</content>
+	<content contentuid="h66365bc9g55bbg4152gba2dg83193a6a6d1c" version="1">A basic a attack that tries to trip it's target.</content>
+	<content contentuid="h359fd896g94a7g4875g8bedgf6d30df80a25" version="1">Wild Shape: Werewolf</content>
+	<content contentuid="h0f1c38a2ge160g44ffg8229g9260a30e5c35" version="1">Shapeshift into a Werewolf.</content>
+	<content contentuid="h282d4757gb171g42a7gb997g29bb1edc4cf3" version="1">Wild Shape: Young Red Dragon</content>
+	<content contentuid="hb4a45229g4f1ag43c6gbdf3g2871fb42d9f7" version="1">Shapeshift into a Young Red Dragon.</content>
 </contentList>
