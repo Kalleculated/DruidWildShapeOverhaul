@@ -1,4 +1,0 @@
-new entry "Throw_Throw"
-type "SpellData"
-data "SpellType" "Throw"
-data "SpellFlags" "InventorySelection;RangeIgnoreVerticalThreshold;IsHarmful;HasHighGroundRangeExtension;IgnoreSilence;IgnoreVisionBlock;AddFallDamageOnLand;AbortOnSecondarySpellRollFail;TrajectoryRules;CombatLogSetSingleLineRoll;IF(HasStatus('SG_Polymorph_Beast')):not IsSpell"
