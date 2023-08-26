@@ -208,7 +208,7 @@
                     <attribute id="RuleName" type="LSString" value="WildShapeKeepName"/>
                     <attribute id="UUID" type="guid" value="9c580a1d-dab9-4b17-b0da-b16c7d7360e0"/>
                     <attribute id="UnarmedAbilityFromTemplate" type="bool" value="true"/>
-                    <attribute id="WildShapeHotBar" type="bool" value="false"/>
+                    <attribute id="WildShapeHotBar" type="bool" value="true"/>
                     <children>
                         <node id="AbilityChanges">
                             <children>
