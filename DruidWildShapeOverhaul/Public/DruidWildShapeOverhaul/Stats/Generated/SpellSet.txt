@@ -1,5 +1,5 @@
 new spellset "CommonSummonActions"
-
+add spell "Target_Shove"
 
 new spellset "CommonMyrmidonActions"
-
+add spell "Target_Shove"
