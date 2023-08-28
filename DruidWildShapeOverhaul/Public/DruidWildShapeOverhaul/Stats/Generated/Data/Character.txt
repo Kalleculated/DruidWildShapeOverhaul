@@ -211,15 +211,15 @@ data "Passives" "Multiattack_GiantEagle;AttackOfOpportunity"
 
 new entry "Giant_Eagle_Wildshape_Player_8"
 type "Character"
-using "_Beast"
+using "Giant_Eagle_Wildshape_Player"
 data "Vitality" "50"
 
 new entry "Giant_Eagle_Wildshape_Player_10"
 type "Character"
-using "_Beast"
+using "Giant_Eagle_Wildshape_Player"
 data "Vitality" "63"
 
 new entry "Giant_Eagle_Wildshape_Player_12"
 type "Character"
-using "_Beast"
+using "Giant_Eagle_Wildshape_Player"
 data "Vitality" "80"
