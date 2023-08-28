@@ -11,7 +11,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape Combat 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Wildshape_Combat_Panther;Shout_WildShape_Combat_Owlbear;Shout_WildShape_Combat_Spider_Sword;Shout_Wildshape_Panther;Shout_WildShape_Owlbear;Shout_WildShape_Spider_Sword"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Wildshape_Combat_Panther;Shout_WildShape_Combat_Owlbear;Shout_WildShape_Combat_Spider_Sword;Shout_Wildshape_Panther;Shout_WildShape_Owlbear;Shout_WildShape_Spider_Sword;Shout_WildShape_Combat_Giant_Eagle;Shout_WildShape_Giant_Eagle"/>
                     <attribute id="UUID" type="guid" value="c3221a24-3bf7-4475-a675-1b5d87f650f0"/>
                 </node>
 				<node id="SpellList">

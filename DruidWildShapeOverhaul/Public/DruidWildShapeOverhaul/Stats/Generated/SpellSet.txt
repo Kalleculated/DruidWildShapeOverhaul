@@ -3,3 +3,7 @@ add spell "Target_Shove"
 
 new spellset "CommonMyrmidonActions"
 add spell "Target_Shove"
+
+new spellset "CommonCatSummonActions"
+add spell "Target_Shove"
+add spell "Projectile_Jump_Panther"

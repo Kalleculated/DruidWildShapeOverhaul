@@ -1,3 +1,8 @@
 new entry "Zone_Sunbeam_Recreate_Wildshape"
 using "Zone_Sunbeam_Recreate"
 data "SpellFlags" "HasSomaticComponent;IsHarmful;Temporary;Wildshape"
+data "PrepareEffect" "bb817069-1b71-4b63-959c-b85e03a492eb"
+data "CastEffect" "2ef28b19-d0cc-4260-8dc5-b1905c116add"
+data "TargetEffect" "ddc1430f-4a0d-42c3-9ac8-ec4c3deaed35"
+data "BeamEffect" "94cab8bc-58f3-450d-8138-c1852ce28ee7"
+data "SpellAnimation" "5e57443f-284e-47b2-915e-5b6417db269c,,;d8b7f668-db2b-43b0-9707-5da2ed2cf27e,,;7521e279-1bb3-4105-b32d-8206234836a3,,;d172e037-7041-4352-9a20-5f4b185f9ef1,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,,"
