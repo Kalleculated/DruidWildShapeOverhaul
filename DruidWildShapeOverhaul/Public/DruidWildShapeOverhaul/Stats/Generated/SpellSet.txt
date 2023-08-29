@@ -1,9 +1,9 @@
-new spellset "CommonSummonActions"
+new spellset "CommonSummonActions_Wildshape"
 add spell "Target_Shove"
 
-new spellset "CommonMyrmidonActions"
+new spellset "CommonMyrmidonActions_Wildshape"
 add spell "Target_Shove"
 
-new spellset "CommonCatSummonActions"
+new spellset "CommonCatSummonActions_Wildshape"
 add spell "Target_Shove"
 add spell "Projectile_Jump_Panther"
