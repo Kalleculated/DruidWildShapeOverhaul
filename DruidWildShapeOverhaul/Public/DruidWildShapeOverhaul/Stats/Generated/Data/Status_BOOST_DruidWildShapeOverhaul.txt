@@ -25,6 +25,8 @@ data "StackId" "SG_Polymorph_Rage_Check"
 data "StatusPropertyFlags" "DisablePortraitIndicator"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "Boosts" "IF(HasPassive('RageUnlock',context.Source)):UnlockSpell(Shout_Rage_Wildshape);IF(HasPassive('TotemSpirit_Bear',context.Source)):UnlockSpell(Shout_Rage_Totem_Bear_Wildshape);IF(HasPassive('TotemSpirit_Eagle',context.Source)):UnlockSpell(Shout_Rage_Totem_Eagle_Wildshape);IF(HasPassive('TotemSpirit_Elk',context.Source)):UnlockSpell(Shout_Rage_Totem_Elk_Wildshape);IF(HasPassive('TotemSpirit_Tiger',context.Source)):UnlockSpell(Shout_Rage_Totem_Tiger_Wildshape);IF(HasPassive('TotemSpirit_Wolf',context.Source)):UnlockSpell(Shout_Rage_Totem_Wolf_Wildshape);IF(HasPassive('RageFrenzyUnlock',context.Source)):UnlockSpell(Shout_Rage_Frenzy_Wildshape)"
+data "OnApplyFunctors" "ApplyStatus(SELF,END_RAGE_TRACKER_WILDSHAPE,100,-1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,END_RAGE_TRACKER_WILDSHAPE)"
 
 new entry "SG_Polymorph_Rage_Check_Alt"
 type "StatusData"

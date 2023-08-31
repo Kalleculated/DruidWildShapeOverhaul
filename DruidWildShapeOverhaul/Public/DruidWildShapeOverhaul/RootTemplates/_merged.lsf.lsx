@@ -3277,7 +3277,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3304,7 +3304,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape_Base" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
