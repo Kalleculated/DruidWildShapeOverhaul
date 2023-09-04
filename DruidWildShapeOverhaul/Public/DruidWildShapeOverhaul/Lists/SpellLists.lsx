@@ -7,12 +7,12 @@
 				<!-- Moon Druid -->
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Combat"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Hyena;Shout_WildShape_Boar_Giant;Shout_WildShape_Combat;Shout_Wildshape_Combat_Boar_Giant;Shout_WildShape_Combat_Hyena;Shout_WildShape_Utility;Shout_WildShape_Combat_Utility;Shout_WildShape_Bear_Container;Shout_WildShape_Combat_Bear_Container"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Hyena;Shout_WildShape_Boar_Giant;Shout_WildShape_Combat;Shout_Wildshape_Combat_Boar_Giant;Shout_WildShape_Combat_Hyena;Shout_WildShape_Utility;Shout_WildShape_Combat_Utility"/>
                     <attribute id="UUID" type="guid" value="2df1a00f-a66a-4240-a505-6a7835f2f1fa"/>
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Bear"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat_Bear_Polar;Shout_WildShape_Bear_Polar;Shout_WildShape_Bear_Cave_Moon;Shout_WildShape_Combat_Bear_Cave_Moon;Shout_WildShape_Bear_Grey_Moon;Shout_WildShape_Combat_Bear_Grey_Moon;Shout_WildShape_Bear_Brown_Moon;Shout_WildShape_Combat_Bear_Brown_Moon"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Container;Shout_WildShape_Combat_Bear_Container;Shout_WildShape_Bear_Cave_Moon;Shout_WildShape_Bear_Grey_Moon;Shout_WildShape_Bear_Brown_Moon;Shout_WildShape_Bear_Polar;Shout_WildShape_Combat_Bear_Cave_Moon;Shout_WildShape_Combat_Bear_Grey_Moon;Shout_WildShape_Combat_Bear_Brown_Moon;Shout_WildShape_Combat_Bear_Polar"/>
                     <attribute id="UUID" type="guid" value="db963d3f-e0ba-4aba-a8e2-cf404dc54429"/>
                 </node>
 				<node id="SpellList">
