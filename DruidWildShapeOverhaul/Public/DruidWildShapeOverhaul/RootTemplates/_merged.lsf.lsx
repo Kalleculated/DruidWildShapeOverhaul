@@ -4601,6 +4601,7 @@
 					<attribute id="Icon" type="FixedString" value="e8b80a42-e471-0603-5f71-7f5625fecc2e-_(Icon_Bear)" />
 					<attribute id="Stats" type="FixedString" value="Bear_Black_Wildshape_Player" />
 					<attribute id="LadderLoopSpeed" type="float" value="4.5" />
+					<attribute id="Scale" type="float" value="0.9" />
 					<attribute id="LightID" type="FixedString" value="8b63360b-35af-48aa-bb3c-6ff78dff80a9" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="b11d6cee-6108-b11b-2950-f8612bb91464" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="650bf105-11ee-fde9-f41d-5dcfda83871d" />
@@ -4795,6 +4796,7 @@
 					<attribute id="MapKey" type="FixedString" value="fede20ee-8bc3-4723-83b0-54502d3d8edb" />
 					<attribute id="Name" type="LSString" value="Bear_Black_PlayerWildshape_6" />
 					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Scale" type="float" value="1.0" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="dde0ee7a-d2d4-4594-9470-e6772ceeeefd" />
 					<attribute id="Stats" type="FixedString" value="Bear_Brown_Wildshape_Player_6" />
@@ -4900,6 +4902,7 @@
 					<attribute id="Name" type="LSString" value="Bear_Black_PlayerWildshape_8" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="ParentTemplateId" type="FixedString" value="fede20ee-8bc3-4723-83b0-54502d3d8edb" />
 					<attribute id="Stats" type="FixedString" value="Bear_Polar_Wildshape_8" />
 					<children>
@@ -4940,6 +4943,7 @@
 					<attribute id="Icon" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869-_(Icon_Bear)" />
 					<attribute id="Stats" type="FixedString" value="Bear_Black_Wildshape_Player" />
 					<attribute id="LadderLoopSpeed" type="float" value="4.5" />
+					<attribute id="Scale" type="float" value="0.9" />
 					<attribute id="LightID" type="FixedString" value="8b63360b-35af-48aa-bb3c-6ff78dff80a9" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="b11d6cee-6108-b11b-2950-f8612bb91464" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="650bf105-11ee-fde9-f41d-5dcfda83871d" />
@@ -5147,6 +5151,7 @@
 					<attribute id="MapKey" type="FixedString" value="ab6833cc-b925-44ff-9cad-f5866b5febf4" />
 					<attribute id="Name" type="LSString" value="Bear_Brown_PlayerWildshape_6" />
 					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Scale" type="float" value="1.0" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="0e79c702-8cc6-4630-8517-7fc2dadf3a21" />
 					<attribute id="Stats" type="FixedString" value="Bear_Brown_Wildshape_Player_6" />
@@ -5252,6 +5257,7 @@
 					<attribute id="Name" type="LSString" value="Bear_Brown_PlayerWildshape_8" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="ParentTemplateId" type="FixedString" value="ab6833cc-b925-44ff-9cad-f5866b5febf4" />
 					<attribute id="Stats" type="FixedString" value="Bear_Polar_Wildshape_8" />
 					<children>
@@ -5292,6 +5298,7 @@
 					<attribute id="Icon" type="FixedString" value="43cda55d-ea47-e549-4773-7249569260d0-_(Icon_Bear)" />
 					<attribute id="Stats" type="FixedString" value="Bear_Black_Wildshape_Player" />
 					<attribute id="LadderLoopSpeed" type="float" value="4.5" />
+					<attribute id="Scale" type="float" value="0.9" />
 					<attribute id="LightID" type="FixedString" value="8b63360b-35af-48aa-bb3c-6ff78dff80a9" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="b11d6cee-6108-b11b-2950-f8612bb91464" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="650bf105-11ee-fde9-f41d-5dcfda83871d" />
@@ -5485,6 +5492,7 @@
 					<attribute id="MapKey" type="FixedString" value="93ba0077-04a1-4daa-818b-e8acd51defaa" />
 					<attribute id="Name" type="LSString" value="Bear_Grey_PlayerWildshape_6" />
 					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Scale" type="float" value="1.0" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="9bb0973e-a15f-4321-9267-8704077500e5" />
 					<attribute id="Stats" type="FixedString" value="Bear_Brown_Wildshape_Player_6" />
@@ -5589,6 +5597,7 @@
 					<attribute id="MapKey" type="FixedString" value="0f122f6e-7a15-4503-a804-d8a42b93c802" />
 					<attribute id="Name" type="LSString" value="Bear_Grey_PlayerWildshape_8" />
 					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="93ba0077-04a1-4daa-818b-e8acd51defaa" />
 					<attribute id="Stats" type="FixedString" value="Bear_Polar_Wildshape_8" />
@@ -5630,6 +5639,7 @@
 					<attribute id="Icon" type="FixedString" value="e8b80a42-e471-0603-5f71-7f5625fecc2e-_(Icon_Bear)" />
 					<attribute id="Stats" type="FixedString" value="Bear_Polar_Wildshape" />
 					<attribute id="LadderLoopSpeed" type="float" value="4.5" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="LightID" type="FixedString" value="8b63360b-35af-48aa-bb3c-6ff78dff80a9" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="b11d6cee-6108-b11b-2950-f8612bb91464" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="650bf105-11ee-fde9-f41d-5dcfda83871d" />
@@ -5876,6 +5886,7 @@
 					<attribute id="Icon" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869-_(Icon_Bear)" />
 					<attribute id="Stats" type="FixedString" value="Bear_Polar_Wildshape" />
 					<attribute id="LadderLoopSpeed" type="float" value="4.5" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="LightID" type="FixedString" value="8b63360b-35af-48aa-bb3c-6ff78dff80a9" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="b11d6cee-6108-b11b-2950-f8612bb91464" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="650bf105-11ee-fde9-f41d-5dcfda83871d" />
@@ -6135,6 +6146,7 @@
 					<attribute id="Icon" type="FixedString" value="43cda55d-ea47-e549-4773-7249569260d0-_(Icon_Bear)" />
 					<attribute id="Stats" type="FixedString" value="Bear_Polar_Wildshape" />
 					<attribute id="LadderLoopSpeed" type="float" value="4.5" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="LightID" type="FixedString" value="8b63360b-35af-48aa-bb3c-6ff78dff80a9" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="b11d6cee-6108-b11b-2950-f8612bb91464" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="650bf105-11ee-fde9-f41d-5dcfda83871d" />
