@@ -650,7 +650,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Tusk_Boar_Wildshape" />
+									<attribute id="Skill" type="FixedString" value="Target_Tusk_Boar_Giant_Wildshape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -4719,7 +4719,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Polar" />
+									<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Black" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -4799,6 +4799,99 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="dde0ee7a-d2d4-4594-9470-e6772ceeeefd" />
 					<attribute id="Stats" type="FixedString" value="Bear_Brown_Wildshape_Player_6" />
 					<children>
+						<node id="SkillList">
+								<children>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="CasualExplorer" type="bool" value="True" />
+										<attribute id="Classic" type="bool" value="True" />
+										<attribute id="TacticianHardcore" type="bool" value="True" />
+										<attribute id="HonorHardcore" type="bool" value="True" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Target_Multiattack_Bear_Wildshape" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Polar" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="CasualExplorer" type="bool" value="True" />
+										<attribute id="Classic" type="bool" value="True" />
+										<attribute id="TacticianHardcore" type="bool" value="True" />
+										<attribute id="HonorHardcore" type="bool" value="True" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+								</children>
+						</node>
 						<node id="LocomotionParams" />
 					</children>
 				</node>
@@ -4964,7 +5057,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Polar" />
+									<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Black" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -5058,6 +5151,99 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="0e79c702-8cc6-4630-8517-7fc2dadf3a21" />
 					<attribute id="Stats" type="FixedString" value="Bear_Brown_Wildshape_Player_6" />
 					<children>
+						<node id="SkillList">
+								<children>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="CasualExplorer" type="bool" value="True" />
+										<attribute id="Classic" type="bool" value="True" />
+										<attribute id="TacticianHardcore" type="bool" value="True" />
+										<attribute id="HonorHardcore" type="bool" value="True" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Target_Multiattack_Bear_Wildshape" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Polar" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="CasualExplorer" type="bool" value="True" />
+										<attribute id="Classic" type="bool" value="True" />
+										<attribute id="TacticianHardcore" type="bool" value="True" />
+										<attribute id="HonorHardcore" type="bool" value="True" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+								</children>
+						</node>
 						<node id="LocomotionParams" />
 					</children>
 				</node>
@@ -5223,7 +5409,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Polar" />
+									<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Black" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -5303,6 +5489,99 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="9bb0973e-a15f-4321-9267-8704077500e5" />
 					<attribute id="Stats" type="FixedString" value="Bear_Brown_Wildshape_Player_6" />
 					<children>
+						<node id="SkillList">
+								<children>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="CasualExplorer" type="bool" value="True" />
+										<attribute id="Classic" type="bool" value="True" />
+										<attribute id="TacticianHardcore" type="bool" value="True" />
+										<attribute id="HonorHardcore" type="bool" value="True" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Target_Multiattack_Bear_Wildshape" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+									<node id="Skill">
+										<attribute id="Skill" type="FixedString" value="Target_Claws_Bear_Polar" />
+										<attribute id="SpellCastingAbility" type="uint8" value="0" />
+										<attribute id="LearningStrategy" type="uint8" value="0" />
+										<attribute id="ScoreModifier" type="float" value="1" />
+										<attribute id="StartRound" type="int32" value="0" />
+										<attribute id="FallbackStartRound" type="int32" value="-1" />
+										<attribute id="MinimumImpact" type="int32" value="0" />
+										<attribute id="CasualExplorer" type="bool" value="True" />
+										<attribute id="Classic" type="bool" value="True" />
+										<attribute id="TacticianHardcore" type="bool" value="True" />
+										<attribute id="HonorHardcore" type="bool" value="True" />
+										<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+										<attribute id="AIFlags" type="uint16" value="0" />
+										<children>
+											<node id="SourceConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+											<node id="TargetConditions">
+												<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+												<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+												<children>
+													<node id="Tags" />
+												</children>
+											</node>
+										</children>
+									</node>
+								</children>
+						</node>
 						<node id="LocomotionParams" />
 					</children>
 				</node>
