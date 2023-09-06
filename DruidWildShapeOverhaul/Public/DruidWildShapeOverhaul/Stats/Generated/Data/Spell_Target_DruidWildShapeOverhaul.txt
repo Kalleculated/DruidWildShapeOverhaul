@@ -340,7 +340,7 @@ data "PowerLevel" "6"
 
 new entry "Target_HeatMetal_Reapply_Wildshape"
 using "Target_HeatMetal_Reapply"
-data "SpellFlags" Temporary;Wildshape"
+data "SpellFlags" "Temporary;Wildshape"
 data "PrepareEffect" "c88e9cfa-df92-477a-ae75-cbfb932350b4"
 data "CastEffect" "7a2115d5-e9b2-4fc2-9201-767275c47f43"
 data "TargetEffect" "ec3af71e-4c6e-4ca3-8af8-bcf713aab8bf"
