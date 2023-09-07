@@ -180,6 +180,42 @@ data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_BEAR_POLAR_REMOVE_VFX,100,1)
 data "TemplateID" "960a6318-3fc0-4b85-8b70-887e99ff248f"
 data "Rules" "9c580a1d-dab9-4b17-b0da-b16c7d7360e0"
 
+new entry "WILDSHAPE_POLAR_PLAYER_4"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "WILDSHAPE_BEAR_POLAR_PLAYER"
+data "TemplateID" "1abd2bc3-474e-4061-bcd7-c1160dc5f765"
+
+new entry "WILDSHAPE_POLAR_PLAYER_5"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "WILDSHAPE_BEAR_POLAR_PLAYER"
+data "TemplateID" "9ce006f4-8c89-4856-8553-a2a722aeb031"
+
+new entry "WILDSHAPE_POLAR_PLAYER_6"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "WILDSHAPE_BEAR_POLAR_PLAYER"
+data "TemplateID" "e217800c-44c8-4c15-bca8-c08b44ab6257"
+
+new entry "WILDSHAPE_POLAR_PLAYER_8"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "WILDSHAPE_BEAR_POLAR_PLAYER"
+data "TemplateID" "69746b93-a8f3-4702-b740-cdf1315ef94d"
+
+new entry "WILDSHAPE_POLAR_PLAYER_10"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "WILDSHAPE_BEAR_POLAR_PLAYER"
+data "TemplateID" "d3d1811f-b9cb-4694-98ae-40197a2ff4a3"
+
+new entry "WILDSHAPE_POLAR_PLAYER_12"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "WILDSHAPE_BEAR_POLAR_PLAYER"
+data "TemplateID" "f36526b4-9eba-462c-8b71-33cf9632cd92"
+
 new entry "WILDSHAPE_BEAR_BROWN_PLAYER"
 type "StatusData"
 data "StatusType" "POLYMORPHED"
