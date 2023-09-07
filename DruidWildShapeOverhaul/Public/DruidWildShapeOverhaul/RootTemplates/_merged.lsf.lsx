@@ -5168,7 +5168,7 @@
 					<attribute id="MapKey" type="FixedString" value="fede20ee-8bc3-4723-83b0-54502d3d8edb" />
 					<attribute id="Name" type="LSString" value="Bear_Black_PlayerWildshape_6" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="Scale" type="float" value="1.0" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="14bcf4b2-679a-44db-80bf-232dcd9a02a7" />
 					<attribute id="Stats" type="FixedString" value="Bear_Polar_Wildshape_6" />
@@ -5534,7 +5534,7 @@
 					<attribute id="MapKey" type="FixedString" value="ab6833cc-b925-44ff-9cad-f5866b5febf4" />
 					<attribute id="Name" type="LSString" value="Bear_Brown_PlayerWildshape_6" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="Scale" type="float" value="1.0" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="f4b7b0e3-2444-4c01-bf40-966e36435c15" />
 					<attribute id="Stats" type="FixedString" value="Bear_Brown_Wildshape_Player_6" />
@@ -5875,7 +5875,7 @@
 					<attribute id="MapKey" type="FixedString" value="93ba0077-04a1-4daa-818b-e8acd51defaa" />
 					<attribute id="Name" type="LSString" value="Bear_Grey_PlayerWildshape_6" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="Scale" type="float" value="1.0" />
+					<attribute id="Scale" type="float" value="1.1" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="9bb0973e-a15f-4321-9267-8704077500e5" />
 					<attribute id="Stats" type="FixedString" value="Bear_Brown_Wildshape_Player_6" />
