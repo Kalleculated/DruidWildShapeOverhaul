@@ -240,6 +240,12 @@ data "StatusType" "POLYMORPHED"
 using "WILDSHAPE_BEAR_BLACK_PLAYER"
 data "TemplateID" "dde0ee7a-d2d4-4594-9470-e6772ceeeefd"
 
+new entry "WILDSHAPE_BEAR_BLACK_PLAYER_5"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "WILDSHAPE_BEAR_BLACK_PLAYER"
+data "TemplateID" "14bcf4b2-679a-44db-80bf-232dcd9a02a7"
+
 new entry "WILDSHAPE_BEAR_BLACK_PLAYER_6"
 type "StatusData"
 data "StatusType" "POLYMORPHED"
