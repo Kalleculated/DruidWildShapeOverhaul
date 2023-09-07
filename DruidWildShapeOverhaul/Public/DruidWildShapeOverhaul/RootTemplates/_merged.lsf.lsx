@@ -5715,10 +5715,10 @@
 						<node id="LocomotionParams" />
 					</children>
 				</node>
-				<!-- Cave Bear Moon -->
+				<!-- Black Bear Moon -->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="99438955-b482-437d-9189-db8b3e9581bf" />
-					<attribute id="Name" type="LSString" value="Bear_Cave_PlayerWildshape" />
+					<attribute id="Name" type="LSString" value="Bear_Black_Moon_PlayerWildshape" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="942afd59-6e67-4e99-bc78-d3ca2835f20d" />
@@ -5909,7 +5909,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="535bbad1-2eff-48c2-ac32-49daad4d0a66" />
-					<attribute id="Name" type="LSString" value="Bear_Cave_PlayerWildshape_4" />
+					<attribute id="Name" type="LSString" value="Bear_Black_Moon_PlayerWildshape_4" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="99438955-b482-437d-9189-db8b3e9581bf" />
@@ -5920,7 +5920,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="fab585cc-dbbe-4afd-94ad-64b26cce9ad9" />
-					<attribute id="Name" type="LSString" value="Bear_Cave_PlayerWildshape_6" />
+					<attribute id="Name" type="LSString" value="Bear_Black_Moon_PlayerWildshape_6" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="535bbad1-2eff-48c2-ac32-49daad4d0a66" />
@@ -5931,7 +5931,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="d3082ab4-dbf4-4ff9-b6e9-c028da0dfd7c" />
-					<attribute id="Name" type="LSString" value="Bear_Cave_PlayerWildshape_8" />
+					<attribute id="Name" type="LSString" value="Bear_Black_Moon_PlayerWildshape_8" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="fab585cc-dbbe-4afd-94ad-64b26cce9ad9" />
@@ -5942,7 +5942,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="025b202d-8549-473d-99b3-4f83af93cc93" />
-					<attribute id="Name" type="LSString" value="Bear_Cave_PlayerWildshape_10" />
+					<attribute id="Name" type="LSString" value="Bear_Black_Moon_PlayerWildshape_10" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="d3082ab4-dbf4-4ff9-b6e9-c028da0dfd7c" />
@@ -5953,7 +5953,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="e4e2d307-59e1-4d5b-a836-88186f69155b" />
-					<attribute id="Name" type="LSString" value="Bear_Cave_PlayerWildshape_12" />
+					<attribute id="Name" type="LSString" value="Bear_Black_Moon_PlayerWildshape_12" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="025b202d-8549-473d-99b3-4f83af93cc93" />

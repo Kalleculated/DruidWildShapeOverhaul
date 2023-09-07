@@ -12,7 +12,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Bear"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Container;Shout_WildShape_Combat_Bear_Container;Shout_WildShape_Bear_Cave_Moon;Shout_WildShape_Bear_Grey_Moon;Shout_WildShape_Bear_Brown_Moon;Shout_WildShape_Bear_Polar;Shout_WildShape_Combat_Bear_Cave_Moon;Shout_WildShape_Combat_Bear_Grey_Moon;Shout_WildShape_Combat_Bear_Brown_Moon;Shout_WildShape_Combat_Bear_Polar"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Container;Shout_WildShape_Combat_Bear_Container;Shout_WildShape_Bear_Black_Moon;Shout_WildShape_Bear_Grey_Moon;Shout_WildShape_Bear_Brown_Moon;Shout_WildShape_Bear_Polar;Shout_WildShape_Combat_Bear_Black_Moon;Shout_WildShape_Combat_Bear_Grey_Moon;Shout_WildShape_Combat_Bear_Brown_Moon;Shout_WildShape_Combat_Bear_Polar"/>
                     <attribute id="UUID" type="guid" value="db963d3f-e0ba-4aba-a8e2-cf404dc54429"/>
                 </node>
 				<node id="SpellList">
