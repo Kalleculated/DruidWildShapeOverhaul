@@ -372,6 +372,12 @@ data "StatusType" "POLYMORPHED"
 using "WILDSHAPE_BEAR_BROWN_MOON_PLAYER"
 data "TemplateID" "e8d618be-3ab6-4b4a-b6c1-b47bf0f7aab2"
 
+new entry "WILDSHAPE_BEAR_BROWN_MOON_PLAYER_5"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "WILDSHAPE_BEAR_BROWN_MOON_PLAYER"
+data "TemplateID" "e0fd5d24-1cd1-4474-9a3a-9cc8c7163d12"
+
 new entry "WILDSHAPE_BEAR_BROWN_MOON_PLAYER_6"
 type "StatusData"
 data "StatusType" "POLYMORPHED"
