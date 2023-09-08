@@ -7585,6 +7585,7 @@
 					<attribute id="VisualTemplate" type="FixedString" value="72ffe069-6305-c909-dba6-4d99629cbe28" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="1ac045bd-dca9-e658-fb54-ad3a572f44df" />
 					<attribute id="Icon" type="FixedString" value="1b555a33-fd11-6d73-edc3-7fbc3dce7527-_(Icon_Crab)" />
+					<attribute id="Stats" type="FixedString" value="Familiar_Crab" />
 					<attribute id="CanClimbLadders" type="bool" value="False" />
 					<attribute id="LightID" type="FixedString" value="0b95fe74-ff14-4d1b-8818-9ce57503748f" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="1b555a33-fd11-6d73-edc3-7fbc3dce7527" />
