@@ -4326,6 +4326,191 @@
 						<node id="LocomotionParams" />
 					</children>
 				</node>
+				
+				<!-- Wolf -->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0ed7dd35-75ba-45af-aeec-939cd014a64f" />
+					<attribute id="Name" type="LSString" value="Wolf_PlayerWildshape" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c0397a46-1a13-4672-950a-f41956866e27" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d68fa57e-01d9-d3f4-f321-72d33500b404" />
+					<attribute id="Stats" type="FixedString" value="Wolf_Wildshape_Player" />
+					<attribute id="Scale" type="float" value="0.9" />
+					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Wildshape" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="d3986e17-a532-be86-0727-a95b1c76b1fa" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="a0e8fc4f-485f-97bd-995a-bfbb0f4d9be4" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="8f998c06-a151-f582-4c81-917b76c2c444" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="2c8c68f9-346d-42de-fd77-1a7ac48575cf" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="d3986e17-a532-be86-0727-a95b1c76b1fa" />
+					<attribute id="VocalRecoverResourceID" type="FixedString" value="c6989041-d5fd-1a68-9a6d-a50cfd7068fb" />
+					<attribute id="VocalIdle1ResourceID" type="FixedString" value="c48f94b4-763e-4d4b-91d0-44aa07073353" />
+					<attribute id="VocalIdle2ResourceID" type="FixedString" value="3c8e03b6-4251-4ea3-bdfe-06283a66ba3a" />
+					<attribute id="Archetype" type="FixedString" value="melee_large" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="dc860a81-f3c2-4c1a-90ab-58e724335c84" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="04ae77c4-f708-4ffa-8c8b-3b762a066e2e" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.49826 -0.00381052 -1.49049" />
+									<attribute id="Max" type="fvec3" value="0.493393 1.63551 1.88476" />
+									<attribute id="Radius" type="float" value="0.226" />
+									<attribute id="Height" type="float" value="1.6" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.3906657 -0.01132715 -1.25" />
+									<attribute id="Max" type="fvec3" value="0.3906657 1.629684 1.25" />
+									<attribute id="Radius" type="float" value="1.704425" />
+									<attribute id="Height" type="float" value="1.641011" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.49826 -0.00381052 -1.49049" />
+									<attribute id="Max" type="fvec3" value="0.493393 1.63551 1.88476" />
+									<attribute id="Radius" type="float" value="0.749" />
+									<attribute id="Height" type="float" value="1.6" />
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-3cf7-5894f9b49f0b" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_Wolf_Dire" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Wildshape_Base" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="UseStandAtDestination" type="bool" value="True" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5d8cf406-87b6-4388-9db9-f8eba935fbb8" />
+					<attribute id="Name" type="LSString" value="Wolf_PlayerWildshape_4" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0ed7dd35-75ba-45af-aeec-939cd014a64f" />
+					<attribute id="Stats" type="FixedString" value="Wolf_Wildshape_Player_4" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="50d5c198-78bb-4a6a-b855-e0efc6b3c3d6" />
+					<attribute id="Name" type="LSString" value="Wolf_PlayerWildshape_6" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5d8cf406-87b6-4388-9db9-f8eba935fbb8" />
+					<attribute id="Stats" type="FixedString" value="Wolf_Wildshape_Player_6" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="89f8665a-646f-4b71-903e-8debe1cdc36f" />
+					<attribute id="Name" type="LSString" value="Wolf_PlayerWildshape__8" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="50d5c198-78bb-4a6a-b855-e0efc6b3c3d6" />
+					<attribute id="Stats" type="FixedString" value="Wolf_Wildshape_Player_8" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="fcad928b-22fd-4e36-b5f8-579953c81d5f" />
+					<attribute id="Name" type="LSString" value="Wolf_PlayerWildshape_10" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="89f8665a-646f-4b71-903e-8debe1cdc36f" />
+					<attribute id="Stats" type="FixedString" value="Wolf_Wildshape_Player_10" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5df9d98b-dbe1-497f-8f5f-56da0d342890" />
+					<attribute id="Name" type="LSString" value="Wolf_PlayerWildshape_12" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="fcad928b-22fd-4e36-b5f8-579953c81d5f" />
+					<attribute id="Stats" type="FixedString" value="Wolf_Wildshape_Player_12" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
 				<!-- Panther -->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="e7780038-d09c-48e1-8bb8-db86538a3cb9" />
