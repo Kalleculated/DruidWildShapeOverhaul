@@ -53,7 +53,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Brown;Shout_WildShape_Bear_Grey;Shout_WildShape_Bear_Polar;Shout_Wildshape_Panther;Shout_WildShape_Raven_Dire_Custom"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Wolf_Dire;Shout_WildShape_Bear_Brown;Shout_WildShape_Bear_Grey;Shout_WildShape_Bear_Polar;Shout_Wildshape_Panther;Shout_WildShape_Raven_Dire_Custom"/>
                     <attribute id="UUID" type="guid" value="c15f9224-a600-4a10-a5e7-642eed9c4222"/>
                 </node>
 				<node id="SpellList">
