@@ -1,7 +1,7 @@
 new entry "Shout_WildShape"
 type "SpellData"
 data "SpellType" "Shout"
-data "ContainerSpells" "Shout_WildShape_Badger;Shout_WildShape_Wolf"
+data "ContainerSpells" "Shout_WildShape_Badger;"
 data "TargetConditions" "Self()"
 data "Icon" "Skill_Druid_WildShape"
 data "DisplayName" "hde7c0e66g9526g4e3bgb10cg1f7f82300b96;1"
