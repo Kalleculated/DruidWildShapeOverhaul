@@ -244,7 +244,7 @@ data "CastSound" "CrSpell_Cast_Bite"
 data "HitAnimationType" "MagicalDamage_Internal"
 data "SpellAnimationIntentType" "Aggressive"
 
-new entry "Target_Bite_VenomSpider_Wildshape_WSO"
+new entry "Target_Bite_VenomSpider_Wildshape"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_Bite_GiantSpider"

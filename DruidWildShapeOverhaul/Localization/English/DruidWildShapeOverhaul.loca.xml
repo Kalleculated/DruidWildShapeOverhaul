@@ -44,6 +44,9 @@
 	<content contentuid="27caec3e-fad5-41e9-b949-c9cd6f1ec705" version="1">Wild Shape: Wolf</content>
 	<content contentuid="5b39f7dc-199a-4fb8-8912-34197f6cb25e" version="1">Shapeshift into a Wolf.</content>
 	<content contentuid="c76fb3dd-7a77-4c37-9c97-f0aed279af66" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it.</content>	
+	<content contentuid="15bf02ef-0ae4-4734-ab45-b8bca4b2c641" version="1">Spit out a venomous substance that leaves a small puddle of poison when hits. Adds your Wisdom Modifier to the damage it deals, making poison more potent.</content>
+	<content contentuid="41f78fa0-7b90-4cf2-9fc3-fbaab8b71f15" version="1">Becomes even more potent and can apply &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; at later levels (level 6 for moon druids / level 10 for other druids).</content>
+	<content contentuid="54f218ee-9ee8-4bcd-ad33-5f6a91439141" version="1">Spit out a venomous substance that leaves a puddle of poison, and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; those it hits. Adds your Wisdom Modifier to the damage it deals, making poison more potent.</content>
 </contentList>
 
 
