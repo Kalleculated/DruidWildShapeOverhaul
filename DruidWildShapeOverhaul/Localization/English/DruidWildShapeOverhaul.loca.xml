@@ -43,4 +43,7 @@
 	<content contentuid="h4fa8d963g49fdg4c53ga187g528051efe66f" version="1">Wild Shape: Dire Wolf</content>
 	<content contentuid="27caec3e-fad5-41e9-b949-c9cd6f1ec705" version="1">Wild Shape: Wolf</content>
 	<content contentuid="5b39f7dc-199a-4fb8-8912-34197f6cb25e" version="1">Shapeshift into a Wolf.</content>
+	<content contentuid="c76fb3dd-7a77-4c37-9c97-f0aed279af66" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it.</content>	
 </contentList>
+
+

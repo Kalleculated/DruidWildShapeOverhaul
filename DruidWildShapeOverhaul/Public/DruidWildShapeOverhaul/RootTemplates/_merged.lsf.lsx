@@ -14,7 +14,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="767c8445-10e2-98d0-ee79-f308a958edf6" />
 					<attribute id="Icon" type="FixedString" value="8b5150e6-7195-5189-3b70-3125ee38eec0-_(Icon_Spider_Normal)" />
 					<attribute id="Stats" type="FixedString" value="Spider_Venom_Wildshape_Player" />
-					<attribute id="Scale" type="float" value="0.8" />
+					<attribute id="Scale" type="float" value="0.7" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Wildshape" />
 					<attribute id="BloodType" type="FixedString" value="Acid" />
 					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceAcid" />
@@ -140,7 +140,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_ToxicSpit_PhaseSpiderQueen_WSO" />
+									<attribute id="Skill" type="FixedString" value="Projectile_ToxicSpit_PhaseSpider_WSO" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -171,7 +171,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_WildShape_Modified" />
+									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_WildShape_WSO" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -198,7 +198,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_VenomSpider_Wildshape" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_VenomSpider_Wildshape_WSO" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2204,7 +2204,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_WildShape_Modified" />
+									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_WildShape_WSO" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
