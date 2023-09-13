@@ -7,7 +7,7 @@
 				<!-- Moon Druid -->
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Combat"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Hyena;Shout_WildShape_Boar_Giant;Shout_WildShape_Combat;Shout_Wildshape_Combat_Boar_Giant;Shout_WildShape_Combat_Hyena;Shout_WildShape_Spider_Venom_Moon;Shout_WildShape_Combat_Spider_Venom_Moon;Shout_WildShape_Utility;Shout_WildShape_Combat_Utility;Shout_WildShape_Wolf_Dire;Shout_WildShape_Combat_Wolf_Dire"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Hyena;Shout_WildShape_Boar_Giant;Shout_WildShape_Combat;Shout_Wildshape_Combat_Boar_Giant;Shout_WildShape_Combat_Hyena;Shout_WildShape_Spider_Venom_Moon;Shout_WildShape_Combat_Spider_Venom_Moon;Shout_WildShape_Spider_Giant_Moon_WSO;Shout_WildShape_Combat_Spider_Giant_Moon_WSO;Shout_WildShape_Utility;Shout_WildShape_Combat_Utility;Shout_WildShape_Wolf_Dire;Shout_WildShape_Combat_Wolf_Dire"/>
                     <attribute id="UUID" type="guid" value="2df1a00f-a66a-4240-a505-6a7835f2f1fa"/>
                 </node>
 				<node id="SpellList">
@@ -48,7 +48,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Improvement"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_DeepRothe;Shout_WildShape_Spider_Phase;Shout_WildShape_Raven"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_DeepRothe;Shout_WildShape_Raven"/>
                     <attribute id="UUID" type="guid" value="ef953742-69fa-4730-a289-bf9ce9629b1a"/>
                 </node>
 				<node id="SpellList">
