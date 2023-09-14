@@ -4830,11 +4830,11 @@
 					<attribute id="Height" type="int32" value="512" />
 					<attribute id="ID" type="FixedString" value="92c9d23a-d4ba-9f24-c6b4-253106ec4ea0" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="Custom.DDS" />
+					<attribute id="Name" type="LSString" value="Custom" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated\Public\DruidWildShapeOverhaul_274cf3f1-f043-4e1f-8acf-b2e79c3630b8\Assets\Characters\_Models\_Creatures\Badger\Resources\Custom.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Public/DruidWildShapeOverhaul/Assets/Characters/_Models/_Creatures/Badger/Resources/Custom.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Custom.DDS" />
+					<attribute id="Template" type="FixedString" value="Custom" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="512" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
@@ -16725,7 +16725,7 @@
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="Custom.GR2" />
+					<attribute id="Name" type="LSString" value="Custom" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="Radius" type="float" value="1.763669" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -16733,9 +16733,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated\Public\DruidWildShapeOverhaul_274cf3f1-f043-4e1f-8acf-b2e79c3630b8\Assets\Characters\_Anims\_Creatures\Badger\Resources\Custom.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Public/DruidWildShapeOverhaul/Assets/Characters/_Anims/_Creatures/Badger/Resources/Custom.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Custom.GR2" />
+					<attribute id="Template" type="FixedString" value="Custom" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241508" />
 					<children>
 						<node id="AnimationWaterfall">
