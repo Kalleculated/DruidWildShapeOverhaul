@@ -17,7 +17,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Combat Improvement"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat_DeepRothe;Shout_WildShape_DeepRothe;Shout_WildShape_Combat_Raven_Dire_Custom;Shout_WildShape_Raven_Dire_Custom;Shout_WildShape_Combat_Raven;Shout_WildShape_Raven"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat_DeepRothe;Shout_WildShape_DeepRothe;Shout_WildShape_Combat_Raven_Dire_Custom;Shout_WildShape_Raven_Dire_Custom;Shout_WildShape_Combat_Raven;Shout_WildShape_Raven;Shout_WildShape_Bat;Shout_WildShape_Combat_Bat"/>
                     <attribute id="UUID" type="guid" value="94081296-f79b-4294-973e-111dabea22ca"/>
                 </node>
 				<node id="SpellList">
@@ -48,7 +48,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Improvement"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_DeepRothe;Shout_WildShape_Raven"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_DeepRothe;Shout_WildShape_Raven;Shout_WildShape_Bat"/>
                     <attribute id="UUID" type="guid" value="ef953742-69fa-4730-a289-bf9ce9629b1a"/>
                 </node>
 				<node id="SpellList">
