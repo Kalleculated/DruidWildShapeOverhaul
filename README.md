@@ -8,7 +8,7 @@
 5. you will now find several _merged files, this is because they always get remerged from the lowest possible directory into the upper one. you always need to use the lowest possible _merged file and edit that
 6. from my experience you are usually interested in the [Pak]_Body 
 ![alt text](pic1.png)
-7. Now it gets confusing: these files that contain the information and basically define the models and their assets are contained in **public/modname/content/assets/...**
+7. Now it gets confusing: these files that contain the information and basically define the loctaion of models and their assets are contained in **public/modname/content/assets/...**
 8. However, the actual models, animations, bodymaps etc. are contained in **public/modname/assets/...**
 9. If you want to edit these files you will need to copy the _merged file for the desired model first into the corresponding directory, i have done that here. You can find it in **Public\DruidWildShapeOverhaul\Content\Assets\Characters\Creatures\Badger\[PAK]_Body\_merged.lsf.lsx**.
 10. When you open this file, you can see that it is basically the original gamefile, however I have made two changes: I included both of your provided files and assigned them. The file locations should be ideally inline with the original relative paths, in this case the bodymap is found in **Public\DruidWildShapeOverhaul\Assets\Characters\_Models\_Creatures\Badger\Resources\BADGER_CUSTOM_BM.DDS** and the other file is in **Public\DruidWildShapeOverhaul\Assets\Characters\_Anims\_Creatures\Badger\Resources\BADGER_CUSTOM.GR2**. Note, that this is **NOT** in content/assets, but in assets.
