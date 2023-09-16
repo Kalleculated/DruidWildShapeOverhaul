@@ -1,13 +1,14 @@
 <contentList>
-	<content contentuid="h8431d5fdg0997g406eg9715g295693b3a67c" version="1">Wild Shape: Sword Spider</content>
-	<content contentuid="h3333521dg999bg4aa6g8d08gf0333fdcf24f" version="1">Shapeshift into a Sword Spider.</content>
+	<content contentuid="h8431d5fdg0997g406eg9715g295693b3a67c" version="1">Wild Shape: Venom Spider</content>
+	<content contentuid="h3333521dg999bg4aa6g8d08gf0333fdcf24f" version="1">Assume the shape of a venomous spider that can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; with attacks and &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_VenomSpider"&gt;spit venom&lt;/LSTag&gt; at enemies.</content>
 	<content contentuid="h94d3b9d9g884dg4103gb633gf84708810d24" version="1">Wild Shape: Phase Spider</content>
-	<content contentuid="hd196b0dag7fa4g4a10g9410g0e00e9af50b4" version="1">Shapeshift into a Phase Spider.</content>
-	<content contentuid="he000d580g23a7g4b04ga89ag16183f32fb1e" version="1">Shapeshifted!</content>
+	<content contentuid="hd196b0dag7fa4g4a10g9410g0e00e9af50b4" version="1">Assume the shape of a phase spider that can &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpider_WSO"&gt;spit venom&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;phase&lt;/LSTag&gt; in and out of the Ethereal Plane. Its movement on the Ethereal Plane before coming back to physical world makes it seem like teleport.</content>
+	<content contentuid="81916465-a489-4dd0-b3b1-1252f16bbdbf" version="1">Wild Shape: Wolf Spider</content>
+	<content contentuid="2ed4ba1b-e0f1-4962-ab3c-8e4d5aa6fc3b" version="1">Assume the shape of a giant wolf spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies.</content>
 	<content contentuid="h5409f2b2g01e9g49f6gbfb7g8004e19b4ca9" version="1">Wild Shape: Hyena</content>
 	<content contentuid="h4931aea7g2377g47eagac9fg354be61fc658" version="1">Shapeshift into a Hyena.</content>
 	<content contentuid="hb832757eg3a53g4281g8418g75f927f7f25c" version="1">Trip Attack.</content>
-	<content contentuid="h66365bc9g55bbg4152gba2dg83193a6a6d1c" version="1">A basic a attack that tries to trip it's target.</content>
+	<content contentuid="h66365bc9g55bbg4152gba2dg83193a6a6d1c" version="1">A basic attack that tries to trip it's target.</content>
 	<content contentuid="h359fd896g94a7g4875g8bedgf6d30df80a25" version="1">Wild Shape: Werewolf</content>
 	<content contentuid="h0f1c38a2ge160g44ffg8229g9260a30e5c35" version="1">Shapeshift into a Werewolf.</content>
 	<content contentuid="h282d4757gb171g42a7gb997g29bb1edc4cf3" version="1">Wild Shape: Young Red Dragon</content>
@@ -17,16 +18,17 @@
 	<content contentuid="h9c0ccce5g44b9g44e1ga68dgc686504df6e6" version="1">Shapeshift into a Giant Eagle.</content>
 	<content contentuid="ha1416929ga079g4a49g842fg1aa0ba8327ca" version="1">Wild Shape: Winter Wolf</content>
 	<content contentuid="hd55c978ageb8eg4952gbca9g02c8b09fa460" version="1">Shapeshift into a Winter Wolf.</content>
+	<content contentuid="08f0c6c4-c55e-43e7-9b22-9988804b3617" version="1">Wild Shape: Worg</content>
+	<content contentuid="0633c6e8-8390-4601-8a67-a4467212b410" version="1">Shapeshift into a Worg.</content>
 	<content contentuid="h88f804fagaf53g4df1gb956gc2e8ddc9a51d" version="1">Wild Shape: Giant Boar</content>
 	<content contentuid="heac60326gb76bg4988gac56g6d81faff4b9c" version="1">Shapeshift into a Giant Boar.</content>
 	<content contentuid="h54e2e1c0gb0e5g4bbegbd9bg536025044edd" version="1">Wild Shape: Dire Raven</content>
 	<content contentuid="h5fa932cfg9973g4098gae8ag55494d279d7e" version="1">Shapeshift into a Dire Raven.</content>
-	<content contentuid="he4dd77a4g4902g43aag8476gef7967250af8" version="1">Wildshape: Critter</content>
+	<content contentuid="he4dd77a4g4902g43aag8476gef7967250af8" version="1">Wild Shape: Critters</content>
 	<content contentuid="h36c11efdgfdc4g41cdg92e0g85a8e6498fb6" version="1">Wild Shape: Rat</content>
 	<content contentuid="h4a1ffc05g4455g4b20gbe75gf66f7c720bc4" version="1">Shapeshift into a Rat.</content>
 	<content contentuid="h17dff142g389bg4d5fg9fe0g3719d2027850" version="1">Wild Shape: Brown Bear</content>
-	<content contentuid="h4d4c8038g3898g4930g8f23gb01271f75c6e" version="1">Wild Shape: Black Bear</content>
-	<content contentuid="h14e2499fg1286g4811gad99g65e774157936" version="1">Wild Shape: Cave Bear</content>
+	<content contentuid="a945548c-4f2f-4241-bafc-244f32e21458" 	version="1">Wild Shape: Black Bear</content>
 	<content contentuid="hd3ec871bg531eg48a9g9073g741aae061375" version="1">Wild Shape: Grey Bear</content>
 	<content contentuid="h953062d4g16c1g4298ga520g9cedcfd3fc52" version="1">Wild Shape: Bears</content>
 	<content contentuid="hb50c4bc3gb4f7g4445gafc5g2a0ef05a8caf" version="1">Wild Shape: Squirrel</content>
@@ -35,9 +37,30 @@
 	<content contentuid="h83c88ac5g8a19g48cegb63eg612fe04e317d" version="1">Shapeshift into a Frog.</content>
 	<content contentuid="hed7c0e94gadceg4268g86ccgac4ff6555b39" version="1">Wild Shape: Small Spider</content>
 	<content contentuid="habd8e8a0gc8ecg41a4g88c7g3b96c5b56d17" version="1">Shapeshift into a Small Spider.</content>
+	<content contentuid="095849aa-fc78-484f-b2dd-bef213694f60" version="1">Wild Shape: Giant Spider</content>
 	<content contentuid="hda97461fg8ff7g4b0dgb7bcgf667aa2a9eb8" version="1">Wild Shape: Crab</content>
 	<content contentuid="h77de1c00g2ea3g4359gba00g9bb0b142934a" version="1">Shapeshift into a Crab.</content>
+	<content contentuid="120403ed-7e76-4295-8400-9121382824e8" version="1">Wild Shape: Bat</content>
+	<content contentuid="1d9f0783-fa2e-4871-aea0-615f2afbfbd9" version="1">Shapeshift into a Bat.</content>
 	<content contentuid="h05897f41g4660g40fdga44fg214d0d31f191" version="1">Wild Shape: Raven</content>
+	<content contentuid="c9f93ad3-997e-4d5f-9cd8-213273cd7b1f" version="1">Shapeshift into a Raven.</content>
 	<content contentuid="h292727f4g09f9g445eg8b0agc7f8eb2d8cec" version="1">Wild Shape: Polar Bear</content>
 	<content contentuid="h4fa8d963g49fdg4c53ga187g528051efe66f" version="1">Wild Shape: Dire Wolf</content>
+	<content contentuid="27caec3e-fad5-41e9-b949-c9cd6f1ec705" version="1">Wild Shape: Wolf</content>
+	<content contentuid="5b39f7dc-199a-4fb8-8912-34197f6cb25e" version="1">Shapeshift into a Wolf.</content>
+	<content contentuid="c76fb3dd-7a77-4c37-9c97-f0aed279af66" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it.</content>	
+	<content contentuid="15bf02ef-0ae4-4734-ab45-b8bca4b2c641" version="1">Spit out a venomous missile that can damage multiple targets, and leaves a puddle of poison on hit. Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>
+	<content contentuid="c57b9f8a-f27b-4989-93bd-695a89b0cce2" version="1">Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>
+	<content contentuid="41f78fa0-7b90-4cf2-9fc3-fbaab8b71f15" version="1">Becomes even more potent and can apply &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; at later levels (level 6 for moon druids / level 10 for other druids).</content>
+	<content contentuid="54f218ee-9ee8-4bcd-ad33-5f6a91439141" version="1">Spit out a venomous missile that can damage multiple targets and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; those it hits. Leaves a puddle of poison on hit. Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>
+	<content contentuid="7b72058e-2150-4b16-a6c4-c43f504a0578" version="1">Spit out a venomous missile that can damage multiple targets and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; those it hits. Leaves a puddle of poison on hit.</content>
+	<content contentuid="586daf61-5612-42d6-8096-9b83bc646b33" version="1">Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>
+	<content contentuid="4bbe73d8-21be-4178-80de-eb507a2273c9" version="1">Bite a target and deal additional poison damage.</content>
+	<content contentuid="9ab34097-4f7f-4d11-8bcf-f6f3d8e6c35b" version="1">Bursting Web</content>
+	<content contentuid="990f80fe-2038-4e8e-916a-30b2fb8ccfac" version="1">Assume the shape of a giant spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies. Gains ability to &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocoon&lt;/LSTag&gt; enemies at level 10.</content>
+	<content contentuid="c8a3bf5f-d7b9-4ff9-b25f-3b6ebacd2fac" version="1">Assume the shape of a giant spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies. Gains ability to &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocoon&lt;/LSTag&gt; enemies at level 6.</content>
+	<content contentuid="74639085-aa82-44c2-86a4-27746f719931" version="1">Phase in and out of the Ethereal Plane. Your movement on Ethereal Plane before coming back make it seem like teleport.</content>
+
 </contentList>
+
+
