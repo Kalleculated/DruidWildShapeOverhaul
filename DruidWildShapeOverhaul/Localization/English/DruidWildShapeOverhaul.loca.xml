@@ -7,8 +7,10 @@
 	<content contentuid="2ed4ba1b-e0f1-4962-ab3c-8e4d5aa6fc3b" version="1">Assume the shape of a giant wolf spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies.</content>
 	<content contentuid="h5409f2b2g01e9g49f6gbfb7g8004e19b4ca9" version="1">Wild Shape: Hyena</content>
 	<content contentuid="h4931aea7g2377g47eagac9fg354be61fc658" version="1">Shapeshift into a Hyena.</content>
-	<content contentuid="hb832757eg3a53g4281g8418g75f927f7f25c" version="1">Trip Attack.</content>
-	<content contentuid="h66365bc9g55bbg4152gba2dg83193a6a6d1c" version="1">A basic attack that tries to trip it's target.</content>
+	<content contentuid="5fff446c-6671-4f29-88c8-9cce8d446b86" version="1">Wild Shape: Giant Hyena</content>
+	<content contentuid="ef07c73e-dc5b-4680-a9a7-fb479785bf5b" version="1">Shapeshift into a Giant Hyena.</content>
+	<content contentuid="hb832757eg3a53g4281g8418g75f927f7f25c" version="1">Bite</content>
+	<content contentuid="h66365bc9g55bbg4152gba2dg83193a6a6d1c" version="1">Bite a target.</content>
 	<content contentuid="h359fd896g94a7g4875g8bedgf6d30df80a25" version="1">Wild Shape: Werewolf</content>
 	<content contentuid="h0f1c38a2ge160g44ffg8229g9260a30e5c35" version="1">Shapeshift into a Werewolf.</content>
 	<content contentuid="h282d4757gb171g42a7gb997g29bb1edc4cf3" version="1">Wild Shape: Young Red Dragon</content>
