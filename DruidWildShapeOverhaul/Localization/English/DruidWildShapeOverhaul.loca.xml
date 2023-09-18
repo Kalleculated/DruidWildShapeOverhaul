@@ -49,7 +49,7 @@
 	<content contentuid="h292727f4g09f9g445eg8b0agc7f8eb2d8cec" version="1">Wild Shape: Polar Bear</content>
 	<content contentuid="h4fa8d963g49fdg4c53ga187g528051efe66f" version="1">Wild Shape: Dire Wolf</content>
 	<content contentuid="27caec3e-fad5-41e9-b949-c9cd6f1ec705" version="1">Wild Shape: Wolf</content>
-	<content contentuid="5b39f7dc-199a-4fb8-8912-34197f6cb25e" version="1">Shapeshift into a Wolf.</content>
+	<content contentuid="5b39f7dc-199a-4fb8-8912-34197f6cb25e" version="1">Shapeshift into a Wolf. Becomes a stronger Dire Wolf at level 6.</content>
 	<content contentuid="c76fb3dd-7a77-4c37-9c97-f0aed279af66" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it.</content>	
 	<content contentuid="15bf02ef-0ae4-4734-ab45-b8bca4b2c641" version="1">Spit out a venomous missile that can damage multiple targets, and leaves a puddle of poison on hit. Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>
 	<content contentuid="c57b9f8a-f27b-4989-93bd-695a89b0cce2" version="1">Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>

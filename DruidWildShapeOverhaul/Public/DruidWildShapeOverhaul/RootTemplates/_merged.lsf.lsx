@@ -3669,6 +3669,33 @@
 										</node>
 									</children>
 								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Hyena_Wildshape_Exposing_Bite" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
 							</children>
 						</node>
 						<node id="PickingPhysics">
@@ -3748,7 +3775,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantHyena_Wildshape_Exposing_Bite" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3920,7 +3947,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantHyena_Wildshape_Exposing_Bite" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -5700,33 +5727,6 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape_Base" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
@@ -5883,33 +5883,6 @@
 							<children>
 								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_Wolf_Dire_WSO" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -6115,6 +6088,33 @@
 									</children>
 								</node>
 								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Wolf_LungingBite" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Wildshape_Base" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
@@ -6164,6 +6164,7 @@
 					<attribute id="Name" type="LSString" value="Wolf_PlayerWildshape_6" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Scale" type="float" value="1" />
 					<attribute id="ParentTemplateId" type="FixedString" value="5d8cf406-87b6-4388-9db9-f8eba935fbb8" />
 					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_6" />
 					<children>
@@ -6171,33 +6172,6 @@
 							<children>
 								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_Wolf_Dire_WSO" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
