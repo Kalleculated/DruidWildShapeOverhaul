@@ -202,6 +202,7 @@ data "ExtraDescription" ""
 data "SpellFlags" "None"
 
 
+
 new entry "Projectile_Jump_Bulette_WSO"
 type "SpellData"
 data "SpellType" "Projectile"
