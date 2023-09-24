@@ -32,7 +32,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape Combat 10"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat_Dilophosaurus;Shout_WildShape_Dilophosaurus"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat_Dilophosaurus;Shout_WildShape_Dilophosaurus;Shout_WildShape_Alioramus;Shout_WildShape_Spider_Phase_Queen;Shout_WildShape_Combat_Spider_Phase_Queen;Shout_WildShape_Bulette"/>
                     <attribute id="UUID" type="guid" value="57d542ac-2d17-406c-90bd-b55920c94b95"/>
                 </node>
 				<node id="SpellList">
