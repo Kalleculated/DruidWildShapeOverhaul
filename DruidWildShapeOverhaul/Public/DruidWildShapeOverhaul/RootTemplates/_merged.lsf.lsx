@@ -10540,7 +10540,7 @@
 				</node>
 				<!-- Bulette -->
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="7a11f55a-4f3a-44e7-b282-39ff07dc36e9" />
+					<attribute id="MapKey" type="FixedString" value="bad2e07b-3cf5-49ec-abcb-8001a7d4d102" />
 					<attribute id="Name" type="LSString" value="Bulette_Player_Wildshape" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
@@ -10549,7 +10549,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="77eb800f-b112-ff4b-d6fc-b0d1f2b935fc" />
 					<attribute id="DisplayName" type="TranslatedString" handle="80b3e0d6-8b92-4bcb-a2c4-bb572393ad96" version="1" />
 					<attribute id="Icon" type="FixedString" value="202ec2de-7b26-b5cf-ce8e-41113c358c0e-_(Icon_Bulette)" />
-					<attribute id="Stats" type="FixedString" value="Bulette" />
+					<attribute id="Stats" type="FixedString" value="Bulette_Wildshape" />
 					<attribute id="CanClimbLadders" type="bool" value="False" />
 					<attribute id="ExplodedResourceID" type="FixedString" value="7ed82e26-cf45-42d5-c880-76d5a8250a00" />
 					<attribute id="DisintegratedResourceID" type="FixedString" value="ab98118f-36e4-8a5f-2e91-925e1c9934c2" />
@@ -10644,7 +10644,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_ToxicSpit_Bulette" />
+									<attribute id="Skill" type="FixedString" value="Projectile_ToxicSpit_Bulette_WSO" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -10671,7 +10671,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Bulette" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Bulette_WSO" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -10696,63 +10696,6 @@
 											</children>
 										</node>
 									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Burrow_Bulette" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
-						<node id="Treasures">
-							<children>
-								<node id="TreasureItem">
-									<attribute id="Object" type="FixedString" value="Empty" />
-								</node>
-							</children>
-						</node>
-						<node id="TradeTreasures">
-							<children>
-								<node id="TreasureItem">
-									<attribute id="Object" type="FixedString" value="Empty" />
-								</node>
-							</children>
-						</node>
-						<node id="PickingPhysics">
-							<children>
-								<node id="PickingPhysicsTemplates">
-									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
-									<attribute id="MapValue" type="FixedString" value="77eb800f-b112-ff4b-d6fc-b0d1f2b935fc" />
-								</node>
-								<node id="PickingPhysicsTemplates">
-									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
-									<attribute id="MapValue" type="FixedString" value="43620562-86b4-1648-c60a-c0b54c4be920" />
-								</node>
-								<node id="PickingPhysicsTemplates">
-									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
-									<attribute id="MapValue" type="FixedString" value="43620562-86b4-1648-c60a-c0b54c4be920" />
 								</node>
 							</children>
 						</node>
@@ -10760,6 +10703,17 @@
 							<attribute id="MovementStepUpHeight" type="float" value="1" />
 							<attribute id="MovementTiltToRemap" type="FixedString" value="" />
 						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="11399624-3192-475a-b2fc-a27aa65e99d9" />
+					<attribute id="Name" type="LSString" value="Bulette_Player_Wildshape_12" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bad2e07b-3cf5-49ec-abcb-8001a7d4d102" />
+					<attribute id="Stats" type="FixedString" value="Bulette_Wildshape_12" />
+					<children>
+						<node id="LocomotionParams" />
 					</children>
 				</node>
 				<!-- Alioramus-->
