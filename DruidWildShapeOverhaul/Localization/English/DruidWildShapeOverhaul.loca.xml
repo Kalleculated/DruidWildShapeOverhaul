@@ -4,18 +4,32 @@
 	<content contentuid="h94d3b9d9g884dg4103gb633gf84708810d24" version="1">Wild Shape: Phase Spider</content>
 	<content contentuid="hd196b0dag7fa4g4a10g9410g0e00e9af50b4" version="1">Assume the shape of a phase spider that can &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpider_WSO"&gt;spit venom&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;phase&lt;/LSTag&gt; in and out of the Ethereal Plane.</content>
 	<content contentuid="ea467213-af92-4643-a406-a74dc4d4ac40" version="1">Wild Shape: Phase Spider Queen</content>
+	<content contentuid="a1bfa02c-aae6-47e2-ad12-9e3d85b0abcf" version="1">Assume the shape of the Phase Spider Queen</content>
+	<content contentuid="ca828cb4-43c4-432a-ab89-f30df4e3a603" version="1">It has all the abilities of the other spiders: &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Web&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Cocoon_PhaseSpiderQueen_Wildshape"&gt;Cocoon&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpiderQueen_WSO"&gt;Venomous Discharge&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;Ethereal Jaunt&lt;/LSTag&gt;.</content>
 	<content contentuid="81916465-a489-4dd0-b3b1-1252f16bbdbf" version="1">Wild Shape: Wolf Spider</content>
 	<content contentuid="2ed4ba1b-e0f1-4962-ab3c-8e4d5aa6fc3b" version="1">Assume the shape of a giant wolf spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies.</content>
 	<content contentuid="990f80fe-2038-4e8e-916a-30b2fb8ccfac" version="1">Assume the shape of a giant spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies. Gains ability to &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocoon&lt;/LSTag&gt; enemies at level 10.</content>
 	<content contentuid="c8a3bf5f-d7b9-4ff9-b25f-3b6ebacd2fac" version="1">Assume the shape of a giant spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies. Gains ability to &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocoon&lt;/LSTag&gt; enemies at level 6.</content>
 	<content contentuid="80b3e0d6-8b92-4bcb-a2c4-bb572393ad96" version="1">Wild Shape: Bulette</content>
-	<content contentuid="9d8b2f83-ff54-4ac8-954f-ad8433d44800" version="1">Assume the shape of bulette.</content>
+	<content contentuid="9d8b2f83-ff54-4ac8-954f-ad8433d44800" version="1">Assume the shape of a bulette that has a &lt;LSTag Type="Spell" Tooltip="Projectile_DeadlyLeap_Bulette_WSO"&gt;powerful leap&lt;/LSTag&gt; that deals massive damage and pushes enemies back, possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; (and will have the ability to burrow if we'll be able to implement it later on).</content>
+	<content contentuid="a2d371ba-7ced-4209-a35b-779e571027c2" version="1">Bite a target.</content>
+	<content contentuid="1f09fea2-c486-413e-8737-cb3749b68e3c" version="1">Expectorate on a target with acid. Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes the acid stronger.</content>
+	<content contentuid="16ab5027-6709-41e5-88b5-c7b5699b5a10" version="1">On Miss: Target still takes a half/full damage - it is only made as a ranged attack so it doesn't take a full action.</content>
+	<content contentuid="0dec2192-a2e2-49a2-b836-77c9654fd339" version="1">Wild Shape: White Owlbear</content>
+	<content contentuid="83357514-dad2-43dc-9560-6f21d21efe11" version="1">Wild Shape: Brown Owlbear</content>
+	<content contentuid="62294b21-5c86-412b-8211-ab49afdb9dec" version="1">Assume the shape of an owlbear that can &lt;LSTag Type="Spell" Tooltip="Projectile_Jump_Owlbear_Wildshape_Lunge_WSO"&gt;Lunge&lt;/LSTag&gt; at enemies, &lt;LSTag Type="Spell" Tooltip="Shout_Owlbear_Wildshape_Smash_WSO"&gt;Rapture&lt;/LSTag&gt; the ground and become &lt;LSTag Type="Spell" Tooltip="Shout_Owlbear_Wildshape_Enrage"&gt;Enraged&lt;/LSTag&gt;.</content>
+	<content contentuid="38ef52f8-659e-408e-9bc6-9981c2e8ed96" version="1">Lash out with deadly claws.</content>
+	<content contentuid="947432e9-764b-4325-97e6-022b9b60231e" version="1">Can also knock &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; nearby creatures with a powerful landing.</content>
+	<content contentuid="b45fecf7-1fef-43e4-8696-2def6863dcb0" version="1">Let out a powerful screech, &lt;LSTag Type="Status" Tooltip="FEARED"&gt;scaring&lt;/LSTag&gt; nearby enemies away, and give in to the owlbear's rage, increasing your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by 2.</content>
+	<content contentuid="8d76a6da-618c-4583-a2e2-9d6383ef7ce2" version="1">Rupture the earth, causing debris to tear through nearby objects and enemies. Deals damage and possibly pushes enemies back.</content>
+	<content contentuid="9099908c-f080-4964-aabd-bf3639e9295e" version="1">Targets still take half damage, but do not get pushed back.</content>
 	<content contentuid="96ca188d-5f30-4ade-b464-c996282013d7" version="1">Wild Shape: Alioramus</content>
 	<content contentuid="88dc841c-117f-4e71-b2d0-d8597e69fad4" version="1">Assume the shape of alioramus.</content>
 	<content contentuid="hb832757eg3a53g4281g8418g75f927f7f25c" version="1">Bite</content>
 	<content contentuid="h66365bc9g55bbg4152gba2dg83193a6a6d1c" version="1">Bite a target.</content>
 	<content contentuid="5a53b20e-e4d9-4964-92e9-38776ba5281d" version="1">Cold Breath</content>
 	<content contentuid="752f26ab-ecc7-4e38-aca1-a4b429a61f0d" version="1">Exhale a blast of freezing wind.</content>
+	<content contentuid="2ffec109-332c-445b-a561-886ff2087c00" version="1">Cold Breath has been used</content>
 	<content contentuid="h359fd896g94a7g4875g8bedgf6d30df80a25" version="1">Wild Shape: Werewolf</content>
 	<content contentuid="h0f1c38a2ge160g44ffg8229g9260a30e5c35" version="1">Shapeshift into a Werewolf.</content>
 	<content contentuid="h282d4757gb171g42a7gb997g29bb1edc4cf3" version="1">Wild Shape: Young Red Dragon</content>
@@ -49,10 +63,15 @@
 	<content contentuid="h05897f41g4660g40fdga44fg214d0d31f191" version="1">Wild Shape: Raven</content>
 	<content contentuid="c9f93ad3-997e-4d5f-9cd8-213273cd7b1f" version="1">Shapeshift into a Raven.</content>
 	<content contentuid="h292727f4g09f9g445eg8b0agc7f8eb2d8cec" version="1">Wild Shape: Polar Bear</content>
+	<content contentuid="9d156216-6f53-43ba-9efa-a29cbd107c89" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_WSO"&gt;Pounce&lt;/LSTag&gt; on enemies.</content>
+	<content contentuid="c8760cf7-cbaf-4688-b5bb-428ae36d5e29" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_Moon"&gt;Pounce&lt;/LSTag&gt; on enemies.</content>
 	<content contentuid="ha1416929ga079g4a49g842fg1aa0ba8327ca" version="1">Wild Shape: Winter Wolf</content>
 	<content contentuid="43d2fa69-968b-4d6e-9f18-ed0b58da59b9" version="1">Assume the shape of the Winter Wolf that can exhale &lt;LSTag Type="Spell" Tooltip="Winter_Wolf_Cold_Breath_Wildshape"&gt;Cold Breath&lt;/LSTag&gt;, and has &lt;LSTag Type="Passive" Tooltip="Winter_Wolf_Resistance_Cold"&gt;resistance to Cold damage&lt;/LSTag&gt;, besides being able to &lt;LSTag Type="Spell" Tooltip="Shout_PackHowl_Wolf_Dire_WSO"&gt;Incite&lt;/LSTag&gt; allies, &lt;LSTag Type="Spell" Tooltip="Target_Wolf_Dire_Lunging_Bite"&gt;Lunge&lt;/LSTag&gt; at enemies and &lt;LSTag Type="Spell" Tooltip="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite"&gt;Distract&lt;/LSTag&gt; them.</content>
-<content contentuid="12f7358e-7a1e-4932-b034-55bd4e6fc7cb" version="1">Winter Wolf: Cold Resistance</content>
-<content contentuid="c7c4f833-2df5-473a-804b-6801edceb785" version="1">As a Winter Wolf you are resistant to Cold damage.</content>
+	<content contentuid="12f7358e-7a1e-4932-b034-55bd4e6fc7cb" version="1">Winter Wolf: Cold Resistance</content>
+	<content contentuid="c7c4f833-2df5-473a-804b-6801edceb785" version="1">As a Winter Wolf you are resistant to Cold damage.</content>
+	<content contentuid="1b034270-4f14-4c5c-b1e3-6e145a97700f" version="1">Venom Spider: Poison Resistance</content>
+	<content contentuid="24c341a7-5ef9-48a2-ac72-ca599b407c1a" version="1">As a Venom Spider you are resistant to Poison damage.</content>
+	<content contentuid="c450c069-4be4-4a04-90aa-6a693baa7775" version="1">As a Venom Spider you are &lt;LSTag Type="Passive" Tooltip="Venom_Spider_Resistance_Poison"&gt;resistant to Poison damage&lt;/LSTag&gt;.</content>
 	<content contentuid="bc02798c-fce3-4303-8c88-9150b217a5ed" version="1">Wild Shape: Worg</content>
 	<content contentuid="0633c6e8-8390-4601-8a67-a4467212b410" version="1">Shapeshift into a Worg.</content>
 	<content contentuid="0633c6e8-8390-4601-8a67-a4467212b410" version="1">Assume the shape of a worg that can &lt;LSTag Type="Spell" Tooltip="Target_Wolf_Dire_Lunging_Bite"&gt;Lunge&lt;/LSTag&gt; at enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>

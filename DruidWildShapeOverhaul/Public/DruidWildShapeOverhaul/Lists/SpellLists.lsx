@@ -7,32 +7,32 @@
 				<!-- Moon Druid -->
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Combat"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Boar_Giant;Shout_WildShape_Combat;Shout_Wildshape_Combat_Boar_Giant;Shout_WildShape_Spider_Venom_Moon;Shout_WildShape_Combat_Spider_Venom_Moon;Shout_WildShape_Spider_Giant_Moon_WSO;Shout_WildShape_Combat_Spider_Giant_Moon_WSO;Shout_WildShape_Utility;Shout_WildShape_Combat_Utility;Shout_WildShape_Wolf_Dire;Shout_WildShape_Combat_Wolf_Dire;Shout_WildShape_Giant_Hyena;Shout_WildShape_Combat_Giant_Hyena"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Combat;Shout_WildShape_Utility;Shout_WildShape_Combat_Utility;Shout_WildShape_Spider_Giant_Moon_WSO;Shout_WildShape_Combat_Spider_Giant_Moon_WSO;Shout_WildShape_Spider_Venom_Moon;Shout_WildShape_Combat_Spider_Venom_Moon;Shout_WildShape_Boar_Giant;Shout_Wildshape_Combat_Boar_Giant;Shout_Wildshape_Panther_Moon;Shout_Wildshape_Combat_Panther_Moon;Shout_WildShape_Wolf_Dire;Shout_WildShape_Combat_Wolf_Dire;Shout_WildShape_Giant_Hyena;Shout_WildShape_Combat_Giant_Hyena"/>
                     <attribute id="UUID" type="guid" value="2df1a00f-a66a-4240-a505-6a7835f2f1fa"/>
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Bear"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Container;Shout_WildShape_Combat_Bear_Container;Shout_WildShape_Bear_Black_Moon;Shout_WildShape_Bear_Grey_Moon;Shout_WildShape_Bear_Brown_Moon;Shout_WildShape_Bear_Polar;Shout_WildShape_Combat_Bear_Black_Moon;Shout_WildShape_Combat_Bear_Grey_Moon;Shout_WildShape_Combat_Bear_Brown_Moon;Shout_WildShape_Combat_Bear_Polar"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Container;Shout_WildShape_Combat_Bear_Container;Shout_WildShape_Bear_Black_Moon;Shout_WildShape_Combat_Bear_Black_Moon;Shout_WildShape_Bear_Brown_Moon;Shout_WildShape_Combat_Bear_Brown_Moon;Shout_WildShape_Bear_Grey_Moon;Shout_WildShape_Combat_Bear_Grey_Moon;Shout_WildShape_Bear_Polar;Shout_WildShape_Combat_Bear_Polar"/>
                     <attribute id="UUID" type="guid" value="db963d3f-e0ba-4aba-a8e2-cf404dc54429"/>
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Combat Improvement"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat_DeepRothe;Shout_WildShape_DeepRothe;Shout_WildShape_Combat_Raven_Dire_Custom;Shout_WildShape_Raven_Dire_Custom;Shout_WildShape_Combat_Raven;Shout_WildShape_Raven;Shout_WildShape_Bat;Shout_WildShape_Combat_Bat"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_DeepRothe;Shout_WildShape_Combat_DeepRothe;Shout_WildShape_Raven_Dire_Custom;Shout_WildShape_Combat_Raven_Dire_Custom;Shout_WildShape_Raven;Shout_WildShape_Combat_Raven;Shout_WildShape_Bat;Shout_WildShape_Combat_Bat"/>
                     <attribute id="UUID" type="guid" value="94081296-f79b-4294-973e-111dabea22ca"/>
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape Combat 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Wildshape_Combat_Panther;Shout_Wildshape_Panther;Shout_WildShape_Combat_Spider_Phase;Shout_WildShape_Spider_Phase;Shout_WildShape_Combat_Giant_Eagle;Shout_WildShape_Giant_Eagle;Shout_WildShape_Combat_Owlbear;Shout_WildShape_Owlbear;Shout_WildShape_Worg;Shout_WildShape_Combat_Worg"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Spider_Phase;Shout_WildShape_Combat_Spider_Phase;Shout_WildShape_Giant_Eagle;Shout_WildShape_Combat_Giant_Eagle;Shout_WildShape_Owlbear;Shout_WildShape_Combat_Owlbear;Shout_WildShape_Owlbear_Brown;Shout_WildShape_Combat_Owlbear_Brown;Shout_WildShape_Worg;Shout_WildShape_Combat_Worg"/>
                     <attribute id="UUID" type="guid" value="c3221a24-3bf7-4475-a675-1b5d87f650f0"/>
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape Combat 8"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Wildshape_Combat_SaberTooth_Tiger;Shout_WildShape_Combat_Werewolf;Shout_Wildshape_SaberTooth_Tiger;Shout_WildShape_Werewolf;Shout_Wildshape_Combat_Wolf_Winter;Shout_WildShape_Wolf_Winter;"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Wildshape_SaberTooth_Tiger;Shout_Wildshape_Combat_SaberTooth_Tiger;Shout_WildShape_Wolf_Winter;Shout_Wildshape_Combat_Wolf_Winter;Shout_WildShape_Werewolf;Shout_WildShape_Combat_Werewolf;"/>
                     <attribute id="UUID" type="guid" value="dcdfdf72-16cd-473a-a15f-31a85381c3aa"/>
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape Combat 10"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat_Dilophosaurus;Shout_WildShape_Dilophosaurus;Shout_WildShape_Alioramus;Shout_WildShape_Spider_Phase_Queen;Shout_WildShape_Combat_Spider_Phase_Queen;Shout_WildShape_Bulette"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Dilophosaurus;Shout_WildShape_Combat_Dilophosaurus;Shout_WildShape_Bulette;Shout_WildShape_Combat_Bulette;Shout_WildShape_Spider_Phase_Queen;Shout_WildShape_Combat_Spider_Phase_Queen"/>
                     <attribute id="UUID" type="guid" value="57d542ac-2d17-406c-90bd-b55920c94b95"/>
                 </node>
 				<node id="SpellList">
@@ -43,7 +43,7 @@
 				<!-- Other Druids -->
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Wolf;Shout_WildShape_Spider_Giant_Wolf;Shout_Wildshape_Boar;Shout_WildShape_Hyena;Shout_WildShape_Utility;Shout_WildShape_Bear_Container;Shout_WildShape_Bear_Black;"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Wolf;Shout_WildShape_Spider_Giant_Wolf;Shout_Wildshape_Panther;Shout_Wildshape_Boar;Shout_WildShape_Hyena;Shout_WildShape_Utility;Shout_WildShape_Bear_Container;Shout_WildShape_Bear_Black;"/>
                     <attribute id="UUID" type="guid" value="0f094e35-9675-464d-8cae-8e58c28de955"/>
                 </node>
 				<node id="SpellList">
@@ -53,7 +53,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Brown;Shout_WildShape_Bear_Grey;Shout_WildShape_Bear_Polar;Shout_Wildshape_Panther;Shout_WildShape_Raven_Dire_Custom;Shout_WildShape_Spider_Venom;Shout_WildShape_Spider_Giant_WSO"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Brown;Shout_WildShape_Bear_Grey;Shout_WildShape_Bear_Polar;Shout_WildShape_Raven_Dire_Custom;Shout_WildShape_Spider_Venom;Shout_WildShape_Spider_Giant_WSO"/>
                     <attribute id="UUID" type="guid" value="c15f9224-a600-4a10-a5e7-642eed9c4222"/>
                 </node>
 				<node id="SpellList">
