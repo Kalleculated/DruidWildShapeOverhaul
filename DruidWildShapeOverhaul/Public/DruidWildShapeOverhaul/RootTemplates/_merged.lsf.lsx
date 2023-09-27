@@ -2504,7 +2504,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_Owlbear_Wildshape_Enrage" />
+									<attribute id="Skill" type="FixedString" value="Shout_Owlbear_Brown_Wildshape_Enrage" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
