@@ -4,6 +4,7 @@
     <region id="Progressions">
         <node id="root">
             <children>
+                <!-- Druid Circle of the Land -->
 				<node id="Progression">
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
@@ -12,6 +13,7 @@
                     <attribute id="TableUUID" type="guid" value="ba1f14d6-d40b-47ce-b071-91b491d87b27"/>
                     <attribute id="UUID" type="guid" value="0da8e650-2ce9-4318-bed7-608f17b89b2d"/>
                 </node>
+                <!-- Druid Circle of the Spores -->
 				<node id="Progression">
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="CircleOfTheSpores"/>

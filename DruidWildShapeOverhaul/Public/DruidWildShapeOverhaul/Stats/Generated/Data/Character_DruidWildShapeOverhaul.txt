@@ -577,6 +577,8 @@ data "Dexterity" "16"
 data "Constitution" "12"
 data "Armor" "10"
 data "Vitality" "22"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
+data "Passives" "FelineFall;AttackOfOpportunity;DarknessRules;Darkvision"
 
 new entry "Wildshape_Panther_Player_4"
 type "Character"
