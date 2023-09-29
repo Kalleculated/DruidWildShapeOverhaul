@@ -66,6 +66,8 @@
 	<content contentuid="h292727f4g09f9g445eg8b0agc7f8eb2d8cec" version="1">Wild Shape: Polar Bear</content>
 	<content contentuid="9d156216-6f53-43ba-9efa-a29cbd107c89" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_WSO"&gt;Pounce&lt;/LSTag&gt; on enemies.</content>
 	<content contentuid="c8760cf7-cbaf-4688-b5bb-428ae36d5e29" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_Moon"&gt;Pounce&lt;/LSTag&gt; on enemies.</content>
+	<content contentuid="4e35b5d7-b446-48bb-b6b3-7958a20b63b6" version="1">Ambush</content>
+	<content contentuid="4622bfd0-1935-48b1-9c7f-063edff03bfd" version="1">Ambush</content>
 	<content contentuid="ha1416929ga079g4a49g842fg1aa0ba8327ca" version="1">Wild Shape: Winter Wolf</content>
 	<content contentuid="43d2fa69-968b-4d6e-9f18-ed0b58da59b9" version="1">Assume the shape of the Winter Wolf that can exhale &lt;LSTag Type="Spell" Tooltip="Winter_Wolf_Cold_Breath_Wildshape"&gt;Cold Breath&lt;/LSTag&gt;, and has &lt;LSTag Type="Passive" Tooltip="Winter_Wolf_Resistance_Cold"&gt;resistance to Cold damage&lt;/LSTag&gt;, besides being able to &lt;LSTag Type="Spell" Tooltip="Shout_PackHowl_Wolf_Dire_WSO"&gt;Incite&lt;/LSTag&gt; allies, &lt;LSTag Type="Spell" Tooltip="Target_Wolf_Dire_Lunging_Bite"&gt;Lunge&lt;/LSTag&gt; at enemies and &lt;LSTag Type="Spell" Tooltip="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite"&gt;Distract&lt;/LSTag&gt; them.</content>
 	<content contentuid="12f7358e-7a1e-4932-b034-55bd4e6fc7cb" version="1">Winter Wolf: Cold Resistance</content>

@@ -863,7 +863,7 @@ data "OnApplyFunctors" "ApplyStatus(SELF,SG_Polymorph_Recast_Check,100,-1);Apply
 data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_PANTHER_REMOVE_VFX,100,1);RemoveStatus(SELF,SG_Polymorph_Recast_Check);RemoveStatus(SELF,SG_Polymorph_Rage_Check_Alt)"
 data "TemplateID" "bc6689ac-b823-487a-9ec9-001e186777a0"
 data "Rules" "9c580a1d-dab9-4b17-b0da-b16c7d7360e0"
-data "Boosts" "VoicebarkBlock();DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21);BlockSpellCast();UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);ProficiencyBonus(Skill,Stealth)"
+data "Boosts" "VoicebarkBlock();DarkvisionRangeMin(12);ActiveCharacterLight(233033a1-b43a-4ad9-976a-8a062b345e21);BlockSpellCast();UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);ProficiencyBonus(Skill,Stealth);ActionResource(SneakAttack_Charge,1,0)"
 
 new entry "WILDSHAPE_PANTHER_MOON_4"
 type "StatusData"
