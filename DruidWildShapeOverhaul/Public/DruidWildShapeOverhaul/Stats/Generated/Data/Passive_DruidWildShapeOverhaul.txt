@@ -10,9 +10,9 @@ data "StatsFunctors" "IF(HasAnyExtraAttack(context.Source) and not context.HasCo
 
 new entry "Wildshape_Flyby"
 type "PassiveData"
-data "DisplayName" "h81c15d09gdee7g4cd4ga39eg6ec6273a8398;1"
-data "Description" "h7162476egad83g4f42g8fccg22f6c6e40b37;1"
-data "Icon" "Action_Disengage"
+data "DisplayName" "ca0f19c9-fb4d-40f0-9461-ac8f372b16b4;1"
+data "Description" "98f1185d-bd1f-447d-8d0b-c6b915bc59b7;1"
+data "Icon" "Action_Fly"
 data "Properties" "Highlighted"
 data "Boosts" "IgnoreLeaveAttackRange()"
 

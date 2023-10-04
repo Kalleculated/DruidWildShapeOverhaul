@@ -1,27 +1,43 @@
 <contentList>
 	<content contentuid="h8431d5fdg0997g406eg9715g295693b3a67c" version="1">Wild Shape: Venom Spider</content>
+	<!-- Venom Spider Description -->
 	<content contentuid="h3333521dg999bg4aa6g8d08gf0333fdcf24f" version="1">Assume the shape of a venomous spider that can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; with attacks and &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_VenomSpider"&gt;spit venom&lt;/LSTag&gt; at enemies.</content>
 	<content contentuid="h94d3b9d9g884dg4103gb633gf84708810d24" version="1">Wild Shape: Phase Spider</content>
+	<!-- Phase Spider Description -->
 	<content contentuid="hd196b0dag7fa4g4a10g9410g0e00e9af50b4" version="1">Assume the shape of a phase spider that can &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpider_WSO"&gt;spit venom&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;phase&lt;/LSTag&gt; in and out of the Ethereal Plane.</content>
 	<content contentuid="ea467213-af92-4643-a406-a74dc4d4ac40" version="1">Wild Shape: Phase Spider Queen</content>
+	<!-- Phase Spider Queen Description -->
 	<content contentuid="a1bfa02c-aae6-47e2-ad12-9e3d85b0abcf" version="1">Assume the shape of the Phase Spider Queen</content>
+	<!-- Phase Spider Queen Extra Description -->
 	<content contentuid="ca828cb4-43c4-432a-ab89-f30df4e3a603" version="1">It has all the abilities of the other spiders: &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Web&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Cocoon_PhaseSpiderQueen_Wildshape"&gt;Cocoon&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpiderQueen_WSO"&gt;Venomous Discharge&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;Ethereal Jaunt&lt;/LSTag&gt;.</content>
 	<content contentuid="81916465-a489-4dd0-b3b1-1252f16bbdbf" version="1">Wild Shape: Wolf Spider</content>
+	<!-- Wolf Spider Description -->
 	<content contentuid="2ed4ba1b-e0f1-4962-ab3c-8e4d5aa6fc3b" version="1">Assume the shape of a giant wolf spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies.</content>
+	<!-- Giant Spider (non-moon) Description -->
 	<content contentuid="990f80fe-2038-4e8e-916a-30b2fb8ccfac" version="1">Assume the shape of a giant spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies. Gains ability to &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocoon&lt;/LSTag&gt; enemies at level 10.</content>
+	<!-- Giant Spider (moon) Description -->
 	<content contentuid="c8a3bf5f-d7b9-4ff9-b25f-3b6ebacd2fac" version="1">Assume the shape of a giant spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies. Gains ability to &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocoon&lt;/LSTag&gt; enemies at level 6.</content>
 	<content contentuid="80b3e0d6-8b92-4bcb-a2c4-bb572393ad96" version="1">Wild Shape: Bulette</content>
+	<!-- Bulette Description -->
 	<content contentuid="9d8b2f83-ff54-4ac8-954f-ad8433d44800" version="1">Assume the shape of a bulette that has a &lt;LSTag Type="Spell" Tooltip="Projectile_DeadlyLeap_Bulette_WSO"&gt;powerful leap&lt;/LSTag&gt; that deals massive damage and pushes enemies back, possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; (and will have the ability to burrow if we'll be able to implement it later on).</content>
 	<content contentuid="a2d371ba-7ced-4209-a35b-779e571027c2" version="1">Bite a target.</content>
+	<!-- Bulette's Acid Spit Description -->
 	<content contentuid="1f09fea2-c486-413e-8737-cb3749b68e3c" version="1">Expectorate on a target with acid. Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes the acid stronger.</content>
+	<!-- Bulette's Acid Spit Extra Description -->
 	<content contentuid="16ab5027-6709-41e5-88b5-c7b5699b5a10" version="1">On Miss: Target still takes a half/full damage - it is only made as a ranged attack so it doesn't take a full action.</content>
 	<content contentuid="0dec2192-a2e2-49a2-b836-77c9654fd339" version="1">Wild Shape: White Owlbear</content>
 	<content contentuid="83357514-dad2-43dc-9560-6f21d21efe11" version="1">Wild Shape: Brown Owlbear</content>
+	<!-- Owlbear Description -->
 	<content contentuid="62294b21-5c86-412b-8211-ab49afdb9dec" version="1">Assume the shape of an owlbear that can &lt;LSTag Type="Spell" Tooltip="Projectile_Jump_Owlbear_Wildshape_Lunge_WSO"&gt;Lunge&lt;/LSTag&gt; at enemies, &lt;LSTag Type="Spell" Tooltip="Shout_Owlbear_Wildshape_Smash_WSO"&gt;Rapture&lt;/LSTag&gt; the ground and become &lt;LSTag Type="Spell" Tooltip="Shout_Owlbear_Wildshape_Enrage"&gt;Enraged&lt;/LSTag&gt;.</content>
+	<!-- Claw Attack Description -->
 	<content contentuid="38ef52f8-659e-408e-9bc6-9981c2e8ed96" version="1">Lash out with deadly claws.</content>
+	<!-- Owlbear's Crushing Flight Extra Description -->
 	<content contentuid="947432e9-764b-4325-97e6-022b9b60231e" version="1">Can also knock &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; nearby creatures with a powerful landing.</content>
+	<!-- Owlbear's Enrage Description -->
 	<content contentuid="b45fecf7-1fef-43e4-8696-2def6863dcb0" version="1">Let out a powerful screech, &lt;LSTag Type="Status" Tooltip="FEARED"&gt;scaring&lt;/LSTag&gt; nearby enemies away, and give in to the owlbear's rage, increasing your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; by 2.</content>
+	<!-- Owlbear's Enrage Passive Description -->
 	<content contentuid="2d2d57d9-d14e-4efd-b333-83aa2188cf41" version="1">The owlbear is enraged! &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; are increased by 2.</content>
+	<!-- Owlbear's Rupture Description -->
 	<content contentuid="8d76a6da-618c-4583-a2e2-9d6383ef7ce2" version="1">Rupture the earth, causing debris to tear through nearby objects and enemies. Deals damage and possibly pushes enemies back.</content>
 	<content contentuid="9099908c-f080-4964-aabd-bf3639e9295e" version="1">Targets still take half damage, but do not get pushed back.</content>
 	<content contentuid="96ca188d-5f30-4ade-b464-c996282013d7" version="1">Wild Shape: Alioramus</content>
@@ -41,8 +57,16 @@
 	<content contentuid="h9c0ccce5g44b9g44e1ga68dgc686504df6e6" version="1">Shapeshift into a Giant Eagle.</content>
 	<content contentuid="h88f804fagaf53g4df1gb956gc2e8ddc9a51d" version="1">Wild Shape: Giant Boar</content>
 	<content contentuid="heac60326gb76bg4988gac56g6d81faff4b9c" version="1">Shapeshift into a Giant Boar.</content>
+	<!-- Dire Raven -->
 	<content contentuid="h54e2e1c0gb0e5g4bbegbd9bg536025044edd" version="1">Wild Shape: Dire Raven</content>
-	<content contentuid="h5fa932cfg9973g4098gae8ag55494d279d7e" version="1">Shapeshift into a Dire Raven.</content>
+	<!-- Dire Raven Description -->
+	<content contentuid="9b2924a4-7af5-4250-9e20-582ca1eaaec6" version="1">Assume the shape of a Dire Raven that can &lt;LSTag Type="Spell" Tooltip="Target_RendVision_Raven_Summon"&gt;Blind&lt;/LSTag&gt; enemies and &lt;LSTag Type="Spell" Tooltip="Projectile_Fly"&gt;Fly&lt;/LSTag&gt; &lt;LSTag Type="Passive" Tooltip="Wildshape_Flyby"&gt;without provoking enemy attacks&lt;/LSTag&gt;.</content>
+	<!-- Dire Raven Extra Description -->
+	<content contentuid="dd0a0399-2d52-422b-afbf-30ba5b390a3c" version="1">As a Dire Raven you also gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt;.</content>
+	<!-- Flyby -->
+	<content contentuid="ca0f19c9-fb4d-40f0-9461-ac8f372b16b4" version="1">Flyby</content>
+	<!-- Flyby Description -->
+	<content contentuid="98f1185d-bd1f-447d-8d0b-c6b915bc59b7" version="1">Doesn't provoke opportunity attacks when flying out of an enemy's reach.</content>
 	<content contentuid="he4dd77a4g4902g43aag8476gef7967250af8" version="1">Wild Shape: Critters</content>
 	<content contentuid="h36c11efdgfdc4g41cdg92e0g85a8e6498fb6" version="1">Wild Shape: Rat</content>
 	<content contentuid="h4a1ffc05g4455g4b20gbe75gf66f7c720bc4" version="1">Shapeshift into a Rat.</content>
@@ -64,11 +88,30 @@
 	<content contentuid="h05897f41g4660g40fdga44fg214d0d31f191" version="1">Wild Shape: Raven</content>
 	<content contentuid="c9f93ad3-997e-4d5f-9cd8-213273cd7b1f" version="1">Shapeshift into a Raven.</content>
 	<content contentuid="h292727f4g09f9g445eg8b0agc7f8eb2d8cec" version="1">Wild Shape: Polar Bear</content>
-	<content contentuid="9d156216-6f53-43ba-9efa-a29cbd107c89" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_WSO"&gt;Pounce&lt;/LSTag&gt; on enemies.</content>
-	<content contentuid="c8760cf7-cbaf-4688-b5bb-428ae36d5e29" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_Moon"&gt;Pounce&lt;/LSTag&gt; on enemies.</content>
+	<!-- Panther (non-moon) Description -->
+	<content contentuid="9d156216-6f53-43ba-9efa-a29cbd107c89" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_WSO"&gt;Pounce&lt;/LSTag&gt; on enemies, &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther"&gt;Ambush&lt;/LSTag&gt; them from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_JugularStrike_Panther_WSO"&gt;strike&lt;/LSTag&gt; &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a bonus action.</content>
+	<!-- Panther (moon) Description -->
+	<content contentuid="c8760cf7-cbaf-4688-b5bb-428ae36d5e29" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_Moon"&gt;Pounce&lt;/LSTag&gt; on enemies, &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther_Moon"&gt;Ambush&lt;/LSTag&gt; them from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_JugularStrike_Panther_Moon"&gt;strike&lt;/LSTag&gt; &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a bonus action.</content>
+	<!-- Panther (non-moon) Extra Description -->
+	<content contentuid="2375e6a6-a7d8-4078-8bce-81c47fee26a4" version="1">As a panther you're also able to &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action, and have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt; and &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Becomes stronger and gains &lt;LSTag Type="Tooltip" Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt; at level 6.</content>
+	<!-- Panther (moon) Extra Description -->
+	<content contentuid="1237e91b-681a-4d48-a2e1-c680ebc4f717" version="1">As a panther you can also &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action, have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt;, and &lt;LSTag Type="Tooltip" Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;.</content>
+	<!-- Pounce Description -->
+	<content contentuid="ff0aaca7-63dc-4588-844a-6cc25c655d07" version="1">Leap at a target to slash it with claws and possibly knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="4e35b5d7-b446-48bb-b6b3-7958a20b63b6" version="1">Ambush</content>
-	<content contentuid="4622bfd0-1935-48b1-9c7f-063edff03bfd" version="1">Ambush</content>
+	<content contentuid="99d1ae7d-445d-403a-b326-1d9cce6cd51b" version="1">Ambush: Jump</content>
+	<!-- Ambush (non-moon) Description -->
+	<content contentuid="fa394882-9268-4ba0-90ee-08daf072f0eb" version="1">Leap at an unsuspecting prey, slashing it with claws and making an additional &lt;LSTag Type="Spell" Tooltip="Target_Bite_Panther_WSO"&gt;Bite&lt;/LSTag&gt;, as you attack from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;.</content>
+	<!-- Ambush (moon) Description -->
+	<content contentuid="9a432045-ebdf-4e6f-8b7a-d51ab3619dba" version="1">Leap at an unsuspecting prey, slashing it with claws and making an additional &lt;LSTag Type="Spell" Tooltip="Target_Bite_Panther_Moon"&gt;Bite&lt;/LSTag&gt;, as you attack from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;.</content>
+	<!-- Ambush Extra Description -->
+	<content contentuid="c2fab8cb-571c-49c3-a000-d6dda1285a11" version="1">Counts as a &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; and does additional damage depending on your rogue level.</content>
+	<!-- Jugular Strike Description -->
+	<content contentuid="7d9ab045-831c-410f-a28d-0b2b7beac650" version="1">Lunge at a &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; creature's throat.</content>
+	<!-- Bonus Action: Hide for a Panther -->
+	<content contentuid="df78c0f9-9a73-4940-8904-820fd3e9d9f5" version="1">Hide: Bonus Action</content>
 	<content contentuid="ha1416929ga079g4a49g842fg1aa0ba8327ca" version="1">Wild Shape: Winter Wolf</content>
+	<!-- Winter Wolf Description -->
 	<content contentuid="43d2fa69-968b-4d6e-9f18-ed0b58da59b9" version="1">Assume the shape of the Winter Wolf that can exhale &lt;LSTag Type="Spell" Tooltip="Winter_Wolf_Cold_Breath_Wildshape"&gt;Cold Breath&lt;/LSTag&gt;, and has &lt;LSTag Type="Passive" Tooltip="Winter_Wolf_Resistance_Cold"&gt;resistance to Cold damage&lt;/LSTag&gt;, besides being able to &lt;LSTag Type="Spell" Tooltip="Shout_PackHowl_Wolf_Dire_WSO"&gt;Incite&lt;/LSTag&gt; allies, &lt;LSTag Type="Spell" Tooltip="Target_Wolf_Dire_Lunging_Bite"&gt;Lunge&lt;/LSTag&gt; at enemies and &lt;LSTag Type="Spell" Tooltip="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite"&gt;Distract&lt;/LSTag&gt; them.</content>
 	<content contentuid="12f7358e-7a1e-4932-b034-55bd4e6fc7cb" version="1">Winter Wolf: Cold Resistance</content>
 	<content contentuid="c7c4f833-2df5-473a-804b-6801edceb785" version="1">As a Winter Wolf you are resistant to Cold damage.</content>
@@ -83,10 +126,15 @@
 	<content contentuid="h4931aea7g2377g47eagac9fg354be61fc658" version="1">Assume the shape of a hyena that can &lt;LSTag Type="Spell" Tooltip="Target_Wolf_Lunging_Bite"&gt;Lunge&lt;/LSTag&gt; at enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Becomes a stronger giant hyena at level 6, gaining the ability to &lt;LSTag Type="Spell" Tooltip="Shout_PackHowl_Wolf_Dire_WSO"&gt;Incite&lt;/LSTag&gt; allies and &lt;LSTag Type="Spell" Tooltip="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite"&gt;Distract&lt;/LSTag&gt; enemies. </content>
 	<content contentuid="5fff446c-6671-4f29-88c8-9cce8d446b86" version="1">Wild Shape: Giant Hyena</content>
 	<content contentuid="ef07c73e-dc5b-4680-a9a7-fb479785bf5b" version="1">Assume the shape of a giant hyena that can &lt;LSTag Type="Spell" Tooltip="Shout_PackHowl_Wolf_Dire_WSO"&gt;Incite&lt;/LSTag&gt; allies and &lt;LSTag Type="Spell" Tooltip="Target_Wolf_Dire_Lunging_Bite"&gt;Lunge&lt;/LSTag&gt; at enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Gains ability to &lt;LSTag Type="Spell" Tooltip="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite"&gt;Distract&lt;/LSTag&gt; enemies at level 6.</content>
-	<content contentuid="h4fa8d963g49fdg4c53ga187g528051efe66f" version="1">Wild Shape: Dire Wolf</content>
+	<!-- Wolf (non-moon) -->
 	<content contentuid="27caec3e-fad5-41e9-b949-c9cd6f1ec705" version="1">Wild Shape: Wolf</content>
+	<!-- Wolf (non-moon) Description -->
 	<content contentuid="5b39f7dc-199a-4fb8-8912-34197f6cb25e" version="1">Assume the shape of a wolf that can &lt;LSTag Type="Spell" Tooltip="Target_Wolf_Lunging_Bite"&gt;Lunge&lt;/LSTag&gt; at enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Becomes a stronger dire wolf at level 6, gaining the ability to &lt;LSTag Type="Spell" Tooltip="Shout_PackHowl_Wolf_Dire_WSO"&gt;Incite&lt;/LSTag&gt; allies and &lt;LSTag Type="Spell" Tooltip="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite"&gt;Distract&lt;/LSTag&gt; enemies. </content>
+	<!-- Dire Wolf -->
+	<content contentuid="h4fa8d963g49fdg4c53ga187g528051efe66f" version="1">Wild Shape: Dire Wolf</content>
+	<!-- Dire Wolf Description -->
 	<content contentuid="017d127b-bbef-416a-9ebb-b6f8e568be81" version="1">Assume the shape of a dire wolf that can &lt;LSTag Type="Spell" Tooltip="Shout_PackHowl_Wolf_Dire_WSO"&gt;Incite&lt;/LSTag&gt; allies and &lt;LSTag Type="Spell" Tooltip="Target_Wolf_Dire_Lunging_Bite"&gt;Lunge&lt;/LSTag&gt; at enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Gains ability to &lt;LSTag Type="Spell" Tooltip="Target_Bite_Wolf_Dire_Wildshape_Exposing_Bite"&gt;Distract&lt;/LSTag&gt; enemies at level 6. </content>
+	<!-- Dire Wolf Extra Description -->
 	<content contentuid="b6b0a586-4edb-4e07-aa78-9902d5c8a71f" version="1">As a wolf you also gain &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt;.</content>
 	<content contentuid="fda48be4-dc51-47b2-8c19-21d515bdf21a" version="1">As a hyena you also gain &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt;.</content>
 	<content contentuid="c76fb3dd-7a77-4c37-9c97-f0aed279af66" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it.</content>	
