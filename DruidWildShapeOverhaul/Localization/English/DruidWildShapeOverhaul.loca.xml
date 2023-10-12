@@ -4,10 +4,10 @@
 	<content contentuid="h3333521dg999bg4aa6g8d08gf0333fdcf24f" version="1">Assume the shape of a venomous spider that can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; with attacks and &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_VenomSpider"&gt;spit venom&lt;/LSTag&gt; at enemies.</content>
 	<content contentuid="h94d3b9d9g884dg4103gb633gf84708810d24" version="1">Wild Shape: Phase Spider</content>
 	<!-- Phase Spider Description -->
-	<content contentuid="hd196b0dag7fa4g4a10g9410g0e00e9af50b4" version="1">Assume the shape of a phase spider that can &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpider_WSO"&gt;spit venom&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;phase&lt;/LSTag&gt; in and out of the Ethereal Plane.</content>
+	<content contentuid="hd196b0dag7fa4g4a10g9410g0e00e9af50b4" version="1">Assume the shape of a phase spider that can &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpider_WSO"&gt;spit venom&lt;/LSTag&gt; and phase in and out of the Ethereal Plane, allowing it to &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;move&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJump"&gt;jump&lt;/LSTag&gt; without restrictions of the Material Plane.</content>
 	<content contentuid="ea467213-af92-4643-a406-a74dc4d4ac40" version="1">Wild Shape: Phase Spider Queen</content>
 	<!-- Phase Spider Queen Description -->
-	<content contentuid="a1bfa02c-aae6-47e2-ad12-9e3d85b0abcf" version="1">Assume the shape of the Phase Spider Queen</content>
+	<content contentuid="a1bfa02c-aae6-47e2-ad12-9e3d85b0abcf" version="1">Assume the shape of the Phase Spider Queen, that has all the abilities of the other spiders: &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Web&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Cocoon_PhaseSpiderQueen_Wildshape"&gt;Cocoon&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpiderQueen_WSO"&gt;Venomous Discharge&lt;/LSTag&gt;, and can &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;move&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJump"&gt;jump&lt;/LSTag&gt; on the Ethereal Plane.</content>
 	<!-- Phase Spider Queen Extra Description -->
 	<content contentuid="ca828cb4-43c4-432a-ab89-f30df4e3a603" version="1">It has all the abilities of the other spiders: &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Web&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Cocoon_PhaseSpiderQueen_Wildshape"&gt;Cocoon&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_PhaseSpiderQueen_WSO"&gt;Venomous Discharge&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_EtherealJaunt_WSO"&gt;Ethereal Jaunt&lt;/LSTag&gt;.</content>
 	<content contentuid="81916465-a489-4dd0-b3b1-1252f16bbdbf" version="1">Wild Shape: Wolf Spider</content>
@@ -88,14 +88,31 @@
 	<content contentuid="h05897f41g4660g40fdga44fg214d0d31f191" version="1">Wild Shape: Raven</content>
 	<content contentuid="c9f93ad3-997e-4d5f-9cd8-213273cd7b1f" version="1">Shapeshift into a Raven.</content>
 	<content contentuid="h292727f4g09f9g445eg8b0agc7f8eb2d8cec" version="1">Wild Shape: Polar Bear</content>
+	<!-- Saber Tiger -->
+	<content contentuid="74bb2429-9e06-4862-8796-cb0f5614a68c" version="1">Wild Shape: Saber-Toothed Tiger</content>
+	<!-- Saber Tiger Description -->
+	<content contentuid="386a9e51-aebf-4ef7-a52b-06f008f6b728" version="1">Assume the shape of a saber-toothed tiger, that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_SaberTooth"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; - and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_SaberTooth"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Target_RipandShred_SaberTooth_Tiger"&gt;Shred Armour&lt;/LSTag&gt;, and makes enemies &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; with &lt;LSTag Type="Spell" Tooltip="Target_Claw_SaberTooth"&gt;Claws&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Bite_SaberTooth_WSO"&gt;Bite&lt;/LSTag&gt; attacks.</content>
+	<!-- Saber Tiger Extra Description -->
+	<content contentuid="eff2331c-7a23-46ec-b7e9-ed4b4ceab0a9" version="1">As a saber-toothed tiger you also gain &lt;LSTag Type="Status" Tooltip="REGENERATION_SABERTOOTH"&gt;Animalistic Vitality&lt;/LSTag&gt;.
+</content>
+	<!-- Saber Tiger's Claws -->
+	<content contentuid="71e84952-c54f-4969-a133-ff5fefb6837b" version="1">Claws</content>
+	<!-- Saber Tiger's Claws Description -->
+	<content contentuid="19e43487-a8a4-488b-99a5-a257fdcfa459" version="1">Lash out with deadly claws.</content>
+	<!-- Saber Tiger's Jugular Bite -->
+	<content contentuid="da644115-9991-4e4d-9fb7-4f6999a33f49" version="1">Jugular Bite</content>
+	<!-- Rip and Tear -->
+	<content contentuid="74bb2429-9e06-4862-8796-cb0f5614a68c" version="1">Wild Shape: Saber-Toothed Tiger</content>
+	<!-- Rip and Tear Description-->
+	<content contentuid="74bb2429-9e06-4862-8796-cb0f5614a68c" version="1">Wild Shape: Saber-Toothed Tiger</content>
 	<!-- Panther (non-moon) Description -->
-	<content contentuid="9d156216-6f53-43ba-9efa-a29cbd107c89" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_WSO"&gt;Pounce&lt;/LSTag&gt; on enemies, &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther"&gt;Ambush&lt;/LSTag&gt; them from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_JugularStrike_Panther_WSO"&gt;strike&lt;/LSTag&gt; &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a bonus action.</content>
+	<content contentuid="9d156216-6f53-43ba-9efa-a29cbd107c89" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; - and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_Panther"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther"&gt;Ambush&lt;/LSTag&gt; enemies from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action.</content>
 	<!-- Panther (moon) Description -->
-	<content contentuid="c8760cf7-cbaf-4688-b5bb-428ae36d5e29" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_Moon"&gt;Pounce&lt;/LSTag&gt; on enemies, &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther_Moon"&gt;Ambush&lt;/LSTag&gt; them from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_JugularStrike_Panther_Moon"&gt;strike&lt;/LSTag&gt; &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a bonus action.</content>
+	<content contentuid="c8760cf7-cbaf-4688-b5bb-428ae36d5e29" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_Moon"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; - and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_Panther_Moon"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther_Moon"&gt;Ambush&lt;/LSTag&gt; enemies from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action.</content>
 	<!-- Panther (non-moon) Extra Description -->
-	<content contentuid="2375e6a6-a7d8-4078-8bce-81c47fee26a4" version="1">As a panther you're also able to &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action, and have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt; and &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Becomes stronger and gains &lt;LSTag Type="Tooltip" Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt; at level 6.</content>
+	<content contentuid="2375e6a6-a7d8-4078-8bce-81c47fee26a4" version="1">As a Panther you also gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt; and &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;, and &lt;LSTag Type="Tooltip" Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt; at level 6.</content>
 	<!-- Panther (moon) Extra Description -->
-	<content contentuid="1237e91b-681a-4d48-a2e1-c680ebc4f717" version="1">As a panther you can also &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action, have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt;, and &lt;LSTag Type="Tooltip" Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;.</content>
+	<content contentuid="1237e91b-681a-4d48-a2e1-c680ebc4f717" version="1">As a Panther you also gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt; and Expertise in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;.</content>
 	<!-- Pounce Description -->
 	<content contentuid="ff0aaca7-63dc-4588-844a-6cc25c655d07" version="1">Leap at a target to slash it with claws and possibly knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="4e35b5d7-b446-48bb-b6b3-7958a20b63b6" version="1">Ambush</content>
@@ -138,15 +155,22 @@
 	<content contentuid="b6b0a586-4edb-4e07-aa78-9902d5c8a71f" version="1">As a wolf you also gain &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt;.</content>
 	<content contentuid="fda48be4-dc51-47b2-8c19-21d515bdf21a" version="1">As a hyena you also gain &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt;.</content>
 	<content contentuid="c76fb3dd-7a77-4c37-9c97-f0aed279af66" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it.</content>	
-	<content contentuid="15bf02ef-0ae4-4734-ab45-b8bca4b2c641" version="1">Spit out a venomous missile that can damage multiple targets, and leaves a puddle of poison on hit.</content>
-	<content contentuid="c57b9f8a-f27b-4989-93bd-695a89b0cce2" version="1">Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>
-	<content contentuid="41f78fa0-7b90-4cf2-9fc3-fbaab8b71f15" version="1">Becomes even more potent and can apply &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; at later levels (level 6 for moon druids / level 10 for other druids).</content>
-	<content contentuid="54f218ee-9ee8-4bcd-ad33-5f6a91439141" version="1">Spit out a venomous missile that can damage multiple targets and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; those it hits. Leaves a puddle of poison on hit. Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>
-	<content contentuid="7b72058e-2150-4b16-a6c4-c43f504a0578" version="1">Spit out a venomous missile that can damage multiple targets and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; those it hits. Leaves a puddle of poison on hit.</content>
-	<content contentuid="586daf61-5612-42d6-8096-9b83bc646b33" version="1">Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes poison more potent.</content>
+	<!-- Venomous Discharge Description -->
+	<content contentuid="54f218ee-9ee8-4bcd-ad33-5f6a91439141" version="1">Spit out a venomous missile that deals [1]. It explodes and deals [2] to anyone nearby, leaving a toxic surface.
+	<!-- Venomous Discharge Extra Description -->
+	<content contentuid="c57b9f8a-f27b-4989-93bd-695a89b0cce2" version="1">Can possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; a target on hit.</content>
+	<!-- Venomous Discharge On Miss: -->
+	<content contentuid="9151bae5-0abc-4e0b-b22f-f87a1a135f4c" version="1">The venomous missile still explodes.</content>
 	<content contentuid="4bbe73d8-21be-4178-80de-eb507a2273c9" version="1">Bite a target and deal additional poison damage.</content>
 	<content contentuid="9ab34097-4f7f-4d11-8bcf-f6f3d8e6c35b" version="1">Bursting Web</content>
-	<content contentuid="74639085-aa82-44c2-86a4-27746f719931" version="1">Phase in and out of the Ethereal Plane. Your movement on Ethereal Plane before coming back make it seem like teleport.</content>
+	<!-- Phase Spider's Ethereal Jaunt Description -->
+	<content contentuid="74639085-aa82-44c2-86a4-27746f719931" version="1">Phase in and out of the Ethereal Plane to move without restrictions.</content>
+	<!-- Phase Spider's Ethereal Jaunt Extra Description -->
+	<content contentuid="37794fc7-a5dc-413f-8c14-11f9fbdf16e8" version="1">Your movement on the Ethereal Plane before coming back makes it seem like teleport, but it's actually not - and requires the same amount of movement as usual.</content>
+	<!-- Phase Spider's Ethereal Jump -->
+	<content contentuid="fa440e44-0dcd-459c-ad44-dc692d76bea4" version="1">Ethereal Jump</content>
+	<!-- Phase Spider's Ethereal Jump Description-->
+	<content contentuid="b655451e-4fb4-479e-936c-9c252cf4576a" version="1">Phase in and out of the Ethereal Plane to &lt;LSTag Type="Spell" Tooltip="Projectile_Jump_Spider_WildShape"&gt;Jump&lt;/LSTag&gt; without restrictions.</content>
 	<content contentuid="bc82800f-5784-4acf-b0de-a2b083d01a93" version="1">Rampage</content>
 	<content contentuid="f824fa1b-c183-4a98-99ba-5991285229f2" version="1">When you kill a target on your turn, you regain half your movement and can make a bite attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; on that turn.</content>
 	<content contentuid="edacc5bc-f6d8-40d7-bd0a-3d8969f3faba" version="1">Rampage: Bonus Attack</content>
