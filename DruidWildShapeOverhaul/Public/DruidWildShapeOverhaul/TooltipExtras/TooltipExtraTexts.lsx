@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="326"/>
+    <region id="TooltipExtraTexts">
+        <node id="root">
+            <children>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Text" type="TranslatedString" handle="9151bae5-0abc-4e0b-b22f-f87a1a135f4c" version="1"/>
+                    <attribute id="UUID" type="guid" value="6da3d0f3-15bc-4f4d-9f89-438117ab3bcd"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Text" type="TranslatedString" handle="615e7623-c969-4382-8486-ae7065e47a66" version="1"/>
+                    <attribute id="UUID" type="guid" value="f8f83fa5-5116-4398-903a-78485d32b33a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

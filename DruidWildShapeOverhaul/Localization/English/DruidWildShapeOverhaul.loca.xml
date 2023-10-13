@@ -19,12 +19,16 @@
 	<content contentuid="c8a3bf5f-d7b9-4ff9-b25f-3b6ebacd2fac" version="1">Assume the shape of a giant spider that can &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider"&gt;Enweb&lt;/LSTag&gt; enemies. Gains ability to &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocoon&lt;/LSTag&gt; enemies at level 6.</content>
 	<content contentuid="80b3e0d6-8b92-4bcb-a2c4-bb572393ad96" version="1">Wild Shape: Bulette</content>
 	<!-- Bulette Description -->
-	<content contentuid="9d8b2f83-ff54-4ac8-954f-ad8433d44800" version="1">Assume the shape of a bulette that has a &lt;LSTag Type="Spell" Tooltip="Projectile_DeadlyLeap_Bulette_WSO"&gt;powerful leap&lt;/LSTag&gt; that deals massive damage and pushes enemies back, possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; (and will have the ability to burrow if we'll be able to implement it later on).</content>
+	<content contentuid="9d8b2f83-ff54-4ac8-954f-ad8433d44800" version="1">Assume the shape of a bulette that can &lt;LSTag Type="Spell" Tooltip="Projectile_DeadlyLeap_Bulette_WSO"&gt;Leap&lt;/LSTag&gt; on enemies, dealing massive damage, pushing them back, and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_Bulette_WSO"&gt;Expectorate&lt;/LSTag&gt; on enemies with &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
+	<!-- Bulette Extra Description -->
+	<content contentuid="7caaca5e-413f-407f-bded-4e44590a5d1f" version="1">(And will have the ability to Burrow, if and when we'll be able to implement it, later on).</content>
+	<!-- Bulette's Bite-->
 	<content contentuid="a2d371ba-7ced-4209-a35b-779e571027c2" version="1">Bite a target.</content>
-	<!-- Bulette's Acid Spit Description -->
-	<content contentuid="1f09fea2-c486-413e-8737-cb3749b68e3c" version="1">Expectorate on a target with acid. Adds your Wisdom Modifier to the damage it deals, as your spellcasting ability makes the acid stronger.</content>
-	<!-- Bulette's Acid Spit Extra Description -->
-	<content contentuid="16ab5027-6709-41e5-88b5-c7b5699b5a10" version="1">On Miss: Target still takes a half/full damage - it is only made as a ranged attack so it doesn't take a full action.</content>
+	<!-- Bulette's Acid Phlegm Description -->
+	<content contentuid="b321507f-e31d-4313-8953-c5e0e0f74c53" version="1">Expectorate on a target with acid that deals [1]. It explodes and deals [2] to anyone nearby, leaving behind a puddle of &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;.</content>
+	<!-- Bulette's Acid Phlegm On Miss: -->
+	<content contentuid="615e7623-c969-4382-8486-ae7065e47a66" version="1">The acid missile still explodes and leaves an acid surface.</content>
+	<!-- Owlbear -->
 	<content contentuid="0dec2192-a2e2-49a2-b836-77c9654fd339" version="1">Wild Shape: White Owlbear</content>
 	<content contentuid="83357514-dad2-43dc-9560-6f21d21efe11" version="1">Wild Shape: Brown Owlbear</content>
 	<!-- Owlbear Description -->
@@ -91,28 +95,25 @@
 	<!-- Saber Tiger -->
 	<content contentuid="74bb2429-9e06-4862-8796-cb0f5614a68c" version="1">Wild Shape: Saber-Toothed Tiger</content>
 	<!-- Saber Tiger Description -->
-	<content contentuid="386a9e51-aebf-4ef7-a52b-06f008f6b728" version="1">Assume the shape of a saber-toothed tiger, that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_SaberTooth"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; - and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_SaberTooth"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Target_RipandShred_SaberTooth_Tiger"&gt;Shred Armour&lt;/LSTag&gt;, and makes enemies &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; with &lt;LSTag Type="Spell" Tooltip="Target_Claw_SaberTooth"&gt;Claws&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Bite_SaberTooth_WSO"&gt;Bite&lt;/LSTag&gt; attacks.</content>
+	<content contentuid="386a9e51-aebf-4ef7-a52b-06f008f6b728" version="1">Assume the shape of a saber-toothed tiger, that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_SaberTooth"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_SaberTooth"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Target_RipandShred_SaberTooth_Tiger_WSO"&gt;Shred Armour&lt;/LSTag&gt;, and makes enemies &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; with &lt;LSTag Type="Spell" Tooltip="Target_Claw_SaberTooth"&gt;Claws&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Bite_SaberTooth_WSO"&gt;Bite&lt;/LSTag&gt; attacks.</content>
 	<!-- Saber Tiger Extra Description -->
-	<content contentuid="eff2331c-7a23-46ec-b7e9-ed4b4ceab0a9" version="1">As a saber-toothed tiger you also gain &lt;LSTag Type="Status" Tooltip="REGENERATION_SABERTOOTH"&gt;Animalistic Vitality&lt;/LSTag&gt;.
-</content>
+	<content contentuid="eff2331c-7a23-46ec-b7e9-ed4b4ceab0a9" version="1">As a saber-toothed tiger you also gain &lt;LSTag Type="Status" Tooltip="REGENERATION_SABERTOOTH"&gt;Animalistic Vitality&lt;/LSTag&gt;.</content>
 	<!-- Saber Tiger's Claws -->
 	<content contentuid="71e84952-c54f-4969-a133-ff5fefb6837b" version="1">Claws</content>
 	<!-- Saber Tiger's Claws Description -->
 	<content contentuid="19e43487-a8a4-488b-99a5-a257fdcfa459" version="1">Lash out with deadly claws.</content>
 	<!-- Saber Tiger's Jugular Bite -->
 	<content contentuid="da644115-9991-4e4d-9fb7-4f6999a33f49" version="1">Jugular Bite</content>
-	<!-- Rip and Tear -->
-	<content contentuid="74bb2429-9e06-4862-8796-cb0f5614a68c" version="1">Wild Shape: Saber-Toothed Tiger</content>
-	<!-- Rip and Tear Description-->
-	<content contentuid="74bb2429-9e06-4862-8796-cb0f5614a68c" version="1">Wild Shape: Saber-Toothed Tiger</content>
+	<!-- Saber Tiger's Shred Armour -->
+	<content contentuid="ef159f79-f7ff-4282-886b-1e28d7a77a8f" version="3">Rip into a target's weaknesses, reducing their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.</content>
 	<!-- Panther (non-moon) Description -->
-	<content contentuid="9d156216-6f53-43ba-9efa-a29cbd107c89" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; - and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_Panther"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther"&gt;Ambush&lt;/LSTag&gt; enemies from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action.</content>
+	<content contentuid="9d156216-6f53-43ba-9efa-a29cbd107c89" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_Panther"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther"&gt;Ambush&lt;/LSTag&gt; enemies from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action.</content>
 	<!-- Panther (moon) Description -->
-	<content contentuid="c8760cf7-cbaf-4688-b5bb-428ae36d5e29" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_Moon"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; - and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_Panther_Moon"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther_Moon"&gt;Ambush&lt;/LSTag&gt; enemies from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action.</content>
+	<content contentuid="c8760cf7-cbaf-4688-b5bb-428ae36d5e29" version="1">Assume the shape of a panther that can &lt;LSTag Type="Spell" Tooltip="Projectile_Pounce_Panther_Moon"&gt;Pounce&lt;/LSTag&gt; on enemies, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and lunge at &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; enemies with a &lt;LSTag Type="Spell" Tooltip="Target_JugularBite_Panther_Moon"&gt;Jugular Bite&lt;/LSTag&gt;. Can also &lt;LSTag Type="Spell" Tooltip="Projectile_Ambush_Panther_Moon"&gt;Ambush&lt;/LSTag&gt; enemies from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction_Panther"&gt;Hide&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; with a bonus action.</content>
 	<!-- Panther (non-moon) Extra Description -->
-	<content contentuid="2375e6a6-a7d8-4078-8bce-81c47fee26a4" version="1">As a Panther you also gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt; and &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;, and &lt;LSTag Type="Tooltip" Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt; at level 6.</content>
+	<content contentuid="2375e6a6-a7d8-4078-8bce-81c47fee26a4" version="1">As a Panther you also gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;, with &lt;LSTag Type="Tooltip" Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; at level 6.</content>
 	<!-- Panther (moon) Extra Description -->
-	<content contentuid="1237e91b-681a-4d48-a2e1-c680ebc4f717" version="1">As a Panther you also gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt; and Expertise in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;.</content>
+	<content contentuid="1237e91b-681a-4d48-a2e1-c680ebc4f717" version="1">As a Panther you also gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; and &lt;LSTag Type="Tooltip" Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in &lt;LSTag Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;.</content>
 	<!-- Pounce Description -->
 	<content contentuid="ff0aaca7-63dc-4588-844a-6cc25c655d07" version="1">Leap at a target to slash it with claws and possibly knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="4e35b5d7-b446-48bb-b6b3-7958a20b63b6" version="1">Ambush</content>
@@ -156,7 +157,7 @@
 	<content contentuid="fda48be4-dc51-47b2-8c19-21d515bdf21a" version="1">As a hyena you also gain &lt;LSTag Type="Passive" Tooltip="PackTactics"&gt;Pack Tactics&lt;/LSTag&gt;.</content>
 	<content contentuid="c76fb3dd-7a77-4c37-9c97-f0aed279af66" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it.</content>	
 	<!-- Venomous Discharge Description -->
-	<content contentuid="54f218ee-9ee8-4bcd-ad33-5f6a91439141" version="1">Spit out a venomous missile that deals [1]. It explodes and deals [2] to anyone nearby, leaving a toxic surface.
+	<content contentuid="54f218ee-9ee8-4bcd-ad33-5f6a91439141" version="1">Spit out a venomous missile that deals [1]. It explodes and deals [2] to anyone nearby.</content>	
 	<!-- Venomous Discharge Extra Description -->
 	<content contentuid="c57b9f8a-f27b-4989-93bd-695a89b0cce2" version="1">Can possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; a target on hit.</content>
 	<!-- Venomous Discharge On Miss: -->
@@ -176,6 +177,22 @@
 	<content contentuid="edacc5bc-f6d8-40d7-bd0a-3d8969f3faba" version="1">Rampage: Bonus Attack</content>
 	<content contentuid="3e82d94a-de24-4d68-ab26-a47f76084c2d" version="1">Make a bite attack as a bonus action</content>
 	<content contentuid="75bf21a9-2d52-468f-9fb4-39fa9172d8f3" version="1">Can make a bite attack as a bonus action</content>
+	<!-- Air Myrmidon Passives -->
+	<content contentuid="5d91556e-2967-4ee2-9310-13bb024f7717" version="1">Air Myrmidon Resistances</content>
+	<!-- Air Myrmidon Passives Description -->
+	<content contentuid="d3efb63a-22f2-4296-8c36-8a1fd29995e2" version="1">As Air Myrmidon you are resistant to Bludgeoning, Slashing, Piercing, Thunder and Lightning damage. You're also immune to Poison damage and to being &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrified&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt;.</content>
+	<!-- Water Myrmidon Passives -->
+	<content contentuid="e647f863-845f-401f-b49b-d4c90a2bd554" version="1">Water Myrmidon Resistances</content>
+	<!-- Water Myrmidon Passives Description -->
+	<content contentuid="55bde069-b963-4e2e-8fd6-131197445cc5" version="1">As Water Myrmidon you are resistant to Bludgeoning, Slashing, Piercing and Acid damage. You're also immune to Poison damage and to being &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrified&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt;.</content>
+	<!-- Earth Myrmidon Passives -->
+	<content contentuid="fac6feaa-2cce-4712-a5e2-e8f3615b36d3" version="1">Earth Myrmidon Resistances</content>
+	<!-- Earth Myrmidon Passives Description -->
+	<content contentuid="5e6fb13f-f311-4f24-ad96-96f47f7bb6dc" version="1">As Earth Myrmidon you are resistant to Bludgeoning, Slashing and Piercing damage. You're also immune to Poison damage and to being &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrified&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt;.</content>
+	<!-- Fire Myrmidon Passives -->
+	<content contentuid="928f65af-2edc-439f-b20f-5252d808ccd6" version="1">Fire Myrmidon Resistances</content>
+	<!-- Fire Myrmidon Passives Description -->
+	<content contentuid="2affb572-ba51-4960-9a86-1eef2a420099" version="1">As Fire Myrmidon you are resistant to Bludgeoning, Slashing and Piercing damage. You're also immune to Fire and Poison damage, and to being &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrified&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt;.</content>
 </contentList>
 
 
