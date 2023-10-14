@@ -1,4 +1,27 @@
 <contentList>
+	<!-- White Cat -->
+	<content contentuid="408bf353-9481-4675-9dc4-53673069102c" version="1">Wild Shape: White Cat</content>
+	<!-- Grey Cat -->
+	<content contentuid="f86d98f6-f68c-456a-945e-7d11605b4694" version="1">Wild Shape: Grey Cat</content>
+	<!-- Brown Cat -->
+	<content contentuid="50fbf46d-3254-4bf9-9d6c-da04fc2b37ff" version="1">Wild Shape: Brown Cat</content>
+	<!-- Cat Description -->
+	<content contentuid="a7430012-7100-4bc4-82f5-b5f439886b62" version="1">Assume the shape of a cat that can avoid attention and &lt;LSTag Type="Spell" Tooltip="Shout_Distract_Cat_Summon"&gt;Meow&lt;/LSTag&gt; to distract enemies.</content>
+	<!-- Green Dilophosaurus -->
+	<content contentuid="05edbc08-e020-4e92-b236-1be0a361448b" version="1">Wild Shape: Dilophosaurus (Green)</content>
+	<!-- Hamster -->
+	<content contentuid="cf0db368-7bda-4314-9118-868b0ae17c0c" version="1">Wild Shape: Hamster</content>
+	<!-- Hamster Description -->
+	<content contentuid="c4319a66-c737-4a10-b5f0-1ab90d8ed532" version="1">Assume the shape of a hamster.</content>
+	<!-- Crab -->
+	<content contentuid="ba82c9bf-9478-4ad7-a656-bcd3183ef3c9" version="1">Wild Shape: Crab</content>
+	<!-- Crab Description -->
+	<content contentuid="d8075249-8f84-4d12-8dd7-92b2d2ef1519" version="1">Assume the shape of a crab.</content>
+	<!-- White Crab -->
+	<content contentuid="fe27bf3f-2bbf-44da-a3bb-10b14a6bb322" version="1">Wild Shape: White Crab</content>
+	<!-- White Crab Description -->
+	<content contentuid="16476cc1-afcb-4396-ad1a-9db4b3615039" version="1">Assume the shape of a white crab.</content>
+	<!-- Venom Spider -->
 	<content contentuid="h8431d5fdg0997g406eg9715g295693b3a67c" version="1">Wild Shape: Venom Spider</content>
 	<!-- Venom Spider Description -->
 	<content contentuid="h3333521dg999bg4aa6g8d08gf0333fdcf24f" version="1">Assume the shape of a venomous spider that can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; with attacks and &lt;LSTag Type="Spell" Tooltip="Projectile_ToxicSpit_VenomSpider"&gt;spit venom&lt;/LSTag&gt; at enemies.</content>
@@ -85,8 +108,6 @@
 	<content contentuid="hed7c0e94gadceg4268g86ccgac4ff6555b39" version="1">Wild Shape: Small Spider</content>
 	<content contentuid="habd8e8a0gc8ecg41a4g88c7g3b96c5b56d17" version="1">Shapeshift into a Small Spider.</content>
 	<content contentuid="095849aa-fc78-484f-b2dd-bef213694f60" version="1">Wild Shape: Giant Spider</content>
-	<content contentuid="hda97461fg8ff7g4b0dgb7bcgf667aa2a9eb8" version="1">Wild Shape: Crab</content>
-	<content contentuid="h77de1c00g2ea3g4359gba00g9bb0b142934a" version="1">Shapeshift into a Crab.</content>
 	<content contentuid="120403ed-7e76-4295-8400-9121382824e8" version="1">Wild Shape: Bat</content>
 	<content contentuid="1d9f0783-fa2e-4871-aea0-615f2afbfbd9" version="1">Shapeshift into a Bat.</content>
 	<content contentuid="h05897f41g4660g40fdga44fg214d0d31f191" version="1">Wild Shape: Raven</content>
