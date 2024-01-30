@@ -5140,88 +5140,38 @@
 				<!-- Giant Eagle -->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="a62cb12f-a063-4227-99ca-7d78054a37df" />
-					<attribute id="Name" type="LSString" value="Bird_Eagle_PlayerWildshape" />
-					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1d13a1ff-4ce5-4281-bbc6-d782a403e652" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h32c0e61dgc248g48c6g8512g0b757e2a2d5f" version="1" />
+					<attribute id="Name" type="LSString" value="WSO_Bird_Eagle_PlayerWildshape" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Wildshape" />
-					<attribute id="ParentTemplateId" type="FixedString" value="ab6ce7ad-8c88-4916-ad67-ae9e05e939b8" />
-					<attribute id="PhysicsTemplate" type="FixedString" value="4c98076a-bfd5-8c3e-7258-25520d45b3bb" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h32c0e61dgc248g48c6g8512g0b757e2a2d5f" version="1" />
-					<attribute id="Icon" type="FixedString" value="afdd2ae9-f780-5e34-28fa-c71418d85e18-_(Icon_Bird_Eagle)" />
-					<attribute id="Stats" type="FixedString" value="Giant_Eagle_Wildshape_Player" />
-					<attribute id="LightID" type="FixedString" value="b62fa66d-5720-449a-96ea-3d69f0facfce" />
-					<attribute id="FoleyMediumResourceID" type="FixedString" value="f06a010e-73ba-3406-ed58-e20bf9343f8d" />
-					<attribute id="FoleyLongResourceID" type="FixedString" value="ae7de912-94bb-ed75-9cd4-8dfec432f26b" />
-					<attribute id="VocalAttackResourceID" type="FixedString" value="cd0420d3-434a-8b6a-f32e-38d8a56848e0" />
-					<attribute id="VocalDeathResourceID" type="FixedString" value="989d26e1-241e-5ef3-b4f1-7ae3aee9ea62" />
-					<attribute id="VocalDodgeResourceID" type="FixedString" value="79eb012f-0c68-1882-c84a-7c044d42c074" />
-					<attribute id="VocalPainResourceID" type="FixedString" value="a52e167c-5a7d-6f9e-a726-78bc54627172" />
-					<attribute id="VocalFallResourceID" type="FixedString" value="11dad07d-e906-7534-1dab-f67f52f5a6e5" />
-					<attribute id="VocalShoutResourceID" type="FixedString" value="dc8a7950-26df-28e3-eec6-d275486f4292" />
-					<attribute id="VocalSpawnResourceID" type="FixedString" value="30053572-b345-9424-82b7-1367872d535b" />
-					<attribute id="VocalAlertResourceID" type="FixedString" value="5487c8eb-ebd2-1400-bcb3-7902d0a3a362" />
-					<attribute id="VocalAngryResourceID" type="FixedString" value="4b64b9d2-525c-7724-e79e-d24dfa013292" />
-					<attribute id="VocalAwakeResourceID" type="FixedString" value="7d38154f-0cbc-4008-2c3d-dd6a432c831e" />
-					<attribute id="VocalBoredResourceID" type="FixedString" value="2a85e20b-400b-6d69-7b98-a8a9c9c973e0" />
-					<attribute id="VocalVictoryResourceID" type="FixedString" value="504f7a50-ef78-047c-1373-f06f9278c582" />
-					<attribute id="VocalRebornResourceID" type="FixedString" value="30053572-b345-9424-82b7-1367872d535b" />
-					<attribute id="VocalRelaxedResourceID" type="FixedString" value="7fd719f5-b29b-0a60-00db-9a74db66dd5d" />
-					<attribute id="VocalSnoreResourceID" type="FixedString" value="10e9a4cf-824b-1c66-c7cd-11c7a52e09a1" />
-					<attribute id="VocalExhaustedResourceID" type="FixedString" value="7cb39688-3a36-1f7b-d2b5-86c0fd732ff9" />
-					<attribute id="VocalInitiativeResourceID" type="FixedString" value="dc8a7950-26df-28e3-eec6-d275486f4292" />
-					<attribute id="VocalWeakResourceID" type="FixedString" value="11dad07d-e906-7534-1dab-f67f52f5a6e5" />
-					<attribute id="VocalRecoverResourceID" type="FixedString" value="7d38154f-0cbc-4008-2c3d-dd6a432c831e" />
-					<attribute id="VocalBuffResourceID" type="FixedString" value="7d38154f-0cbc-4008-2c3d-dd6a432c831e" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="afdd2ae9-f780-5e34-28fa-c71418d85e18" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Bird_Eagle" />
-					<attribute id="Race" type="guid" value="28e90860-5c47-48eb-7a99-3e59b4c26da1" />
-					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="Stats" type="FixedString" value="CommonMyrmidonActions" />
 					<children>
-						<node id="Tags">
-							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="801bd716-0666-4dd5-49b4-ff45a5a90f2a" />
-								</node>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="8803503b-64e0-49dd-5bba-4f0c5c2cb5c0" />
-								</node>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="85f98951-5d9f-4beb-b39c-28480e343fd2" />
-								</node>
-							</children>
-						</node>
 						<node id="Bounds">
 							<children>
 								<node id="Bound">
+									<attribute id="Height" type="float" value="1.5" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.249" />
+									<attribute id="Shape" type="uint8" value="2" />
 									<attribute id="Type" type="uint8" value="0" />
-									<attribute id="Shape" type="uint8" value="2" />
-									<attribute id="Min" type="fvec3" value="0 0 0" />
-									<attribute id="Max" type="fvec3" value="0 0 0" />
-									<attribute id="Radius" type="float" value="0.4" />
-									<attribute id="Height" type="float" value="1.5" />
 								</node>
 								<node id="Bound">
-									<attribute id="Type" type="uint8" value="1" />
-									<attribute id="Shape" type="uint8" value="2" />
-									<attribute id="Min" type="fvec3" value="0 0 0" />
-									<attribute id="Max" type="fvec3" value="0 0 0" />
-									<attribute id="Radius" type="float" value="0.4" />
 									<attribute id="Height" type="float" value="1.5" />
-								</node>
-								<node id="Bound">
-									<attribute id="Type" type="uint8" value="2" />
-									<attribute id="Shape" type="uint8" value="2" />
-									<attribute id="Min" type="fvec3" value="0 0 0" />
 									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
 									<attribute id="Radius" type="float" value="1" />
-									<attribute id="Height" type="float" value="1.5" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="1" />
 								</node>
-							</children>
-						</node>
-						<node id="SpeakerGroupList">
-							<children>
-								<node id="SpeakerGroup">
-									<attribute id="Object" type="guid" value="f27c125a-da67-4e80-5694-4c216763842c" />
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1.5" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0.749" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="2" />
 								</node>
 							</children>
 						</node>
@@ -5309,7 +5259,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Jump_GiantEagle" />
+									<attribute id="Skill" type="FixedString" value="WSO_Projectile_Jump_GiantEagle" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -5526,32 +5476,17 @@
 				</node>
 				<!-- Saber Tooth Tiger -->
 				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hf7fc2047ga596g401dg9482gcb6cc2037cf9" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="d88296a2-a21a-420f-a4dc-95938f8b2e59" />
 					<attribute id="Name" type="LSString" value="SaberTooth_Tiger_PlayerWildshape" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="00c5b55e-c9f8-4f2f-a223-c1f21c9f7878" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hf7fc2047ga596g401dg9482gcb6cc2037cf9" version="1" />
-					<attribute id="Stats" type="FixedString" value="Wildshape_SaberTooth_Tiger_Player" />
+					<attribute id="ParentTemplateId" type="FixedString" value="007a0a64-d763-4daf-9697-21765a4c2d4d" />
+					<attribute id="SpellSet" type="FixedString" value="CommonCatSummonActions" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wildshape_SaberTooth_Tiger" />
 					<attribute id="Scale" type="float" value="1.2" />
-					<attribute id="SpellSet" type="FixedString" value="CommonCatSummonActions_Wildshape" />
-					<attribute id="VocalAngryResourceID" type="FixedString" value="70423c07-4fce-47ed-80c6-94a681c10219" />
-					<attribute id="VocalRelaxedResourceID" type="FixedString" value="f588feeb-362d-4ad1-9d4f-88eb94101a1d" />
-					<attribute id="VocalExhaustedResourceID" type="FixedString" value="dfa1dd96-6b8e-49ee-a1db-ab8c1a01fc02" />
-					<attribute id="VocalIdle1ResourceID" type="FixedString" value="84cc328b-03e8-45f2-a30c-8b892ff6e1c0" />
-					<attribute id="VocalIdleCombat1ResourceID" type="FixedString" value="98b4624e-cda1-4c6d-bfd5-71721ebb4e9d" />
-					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="Type" type="FixedString" value="character" />
 					<children>
-						<node id="Tags">
-							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="dc860a81-f3c2-4c1a-90ab-58e724335c84" />
-								</node>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="04ae77c4-f708-4ffa-8c8b-3b762a066e2e" />
-								</node>
-							</children>
-						</node>
+						<node id="LocomotionParams" />
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
@@ -5734,7 +5669,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="d88296a2-a21a-420f-a4dc-95938f8b2e59" />
-					<attribute id="Stats" type="FixedString" value="Wildshape_SaberTooth_Tiger_Player_8" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wildshape_SaberTooth_Tiger_8" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -5745,7 +5680,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c60e0524-a589-46d9-8ca0-2e95ae84c73d" />
-					<attribute id="Stats" type="FixedString" value="Wildshape_SaberTooth_Tiger_Player_10" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wildshape_SaberTooth_Tiger_10" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -5756,7 +5691,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="7ac8d5f0-d198-4380-a1ae-46ff964307a0" />
-					<attribute id="Stats" type="FixedString" value="Wildshape_SaberTooth_Tiger_Player_12" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wildshape_SaberTooth_Tiger_12" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -6708,7 +6643,7 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c0397a46-1a13-4672-950a-f41956866e27" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="d68fa57e-01d9-d3f4-f321-72d33500b404" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Wildshape" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="d3986e17-a532-be86-0727-a95b1c76b1fa" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="a0e8fc4f-485f-97bd-995a-bfbb0f4d9be4" />
@@ -6861,7 +6796,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="71e2c062-fdf8-40c7-88d7-05ef57cdff41" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_4" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_4" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -6872,7 +6807,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="ceaac6e4-7eec-4b7f-9334-f5ae3439e4af" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_6" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_6" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -6995,7 +6930,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1149690-5a2c-4aa5-8e34-94355103f63b" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_8" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_8" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -7006,7 +6941,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="ef4ac0c6-a68b-47dc-bd31-5abc9f2fd757" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_10" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_10" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -7017,7 +6952,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="a915541a-f6e2-49b2-8685-3bbcb49bf00d" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_12" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_12" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -7029,7 +6964,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="67f39af3-b9ea-4e95-8237-7aa4f6bd7cef" />
-					<attribute id="Stats" type="FixedString" value="Winter_Wolf_Wildshape_Player" />
+					<attribute id="Stats" type="FixedString" value="WSO_Winter_Wolf_Wildshape" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Wildshape" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="d3986e17-a532-be86-0727-a95b1c76b1fa" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="a0e8fc4f-485f-97bd-995a-bfbb0f4d9be4" />
@@ -7236,7 +7171,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="a8d0a10e-fba4-4a50-a1bc-292fe3b4b16d" />
-					<attribute id="Stats" type="FixedString" value="Winter_Wolf_Wildshape_Player_10" />
+					<attribute id="Stats" type="FixedString" value="WSO_Winter_Wolf_Wildshape_10" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -7247,7 +7182,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="d0b634df-afb0-4df7-99a8-e7ca7df4be2a" />
-					<attribute id="Stats" type="FixedString" value="Winter_Wolf_Wildshape_Player_12" />
+					<attribute id="Stats" type="FixedString" value="WSO_Winter_Wolf_Wildshape_12" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -7399,7 +7334,7 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="Scale" type="float" value="1" />
 					<attribute id="ParentTemplateId" type="FixedString" value="5d8cf406-87b6-4388-9db9-f8eba935fbb8" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_6" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_6" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -7522,7 +7457,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="50d5c198-78bb-4a6a-b855-e0efc6b3c3d6" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_8" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_8" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -7533,7 +7468,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="89f8665a-646f-4b71-903e-8debe1cdc36f" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_10" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_10" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -7544,7 +7479,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="fcad928b-22fd-4e36-b5f8-579953c81d5f" />
-					<attribute id="Stats" type="FixedString" value="Wolf_Dire_Wildshape_Player_12" />
+					<attribute id="Stats" type="FixedString" value="WSO_Wolf_Dire_Wildshape_12" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>

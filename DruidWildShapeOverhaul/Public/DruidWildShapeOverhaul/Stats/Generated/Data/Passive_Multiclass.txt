@@ -1,0 +1,88 @@
+new entry "WSO_WILDSHAPE_MULTICLASS_TEMPLATE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveConditions" "StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') and not HasStatus('SG_Polymorph_BeastShape')"
+data "RemoveEvents" "OnStatusRemoved"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting"
+
+new entry "WSO_WILDSHAPE_MULTICLASS_UNLOCK"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveConditions" "StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') and not HasStatus('SG_Polymorph_BeastShape')"
+data "RemoveEvents" "OnStatusRemoved"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting"
+data "OnApplyFunctors" "IF(ClassLevelHigherOrEqualThan(1,'Barbarian')):ApplyStatus(WSO_WILDSHAPE_MULTICLASS_BARBARIAN, 100, -1);IF(ClassLevelHigherOrEqualThan(1,'Fighter')):ApplyStatus(WSO_WILDSHAPE_MULTICLASS_FIGHTER, 100, -1);IF(ClassLevelHigherOrEqualThan(1,'Paladin')):ApplyStatus(WSO_WILDSHAPE_MULTICLASS_PALADIN, 100, -1);IF(ClassLevelHigherOrEqualThan(1,'Monk')):ApplyStatus(WSO_WILDSHAPE_MULTICLASS_MONK, 100, -1);IF(ClassLevelHigherOrEqualThan(1,'Rogue')):ApplyStatus(WSO_WILDSHAPE_MULTICLASS_ROGUE, 100, -1)"
+data "OnRemoveFunctors" "RemoveStatus(SELF,WSO_WILDSHAPE_MULTICLASS_BARBARIAN);RemoveStatus(SELF,WSO_WILDSHAPE_MULTICLASS_FIGHTER);RemoveStatus(SELF,WSO_WILDSHAPE_MULTICLASS_PALADIN);RemoveStatus(SELF,WSO_WILDSHAPE_MULTICLASS_MONK);RemoveStatus(SELF,WSO_WILDSHAPE_MULTICLASS_ROGUE)"
+
+
+new entry "WSO_WILDSHAPE_MULTICLASS_BARBARIAN"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WSO_WILDSHAPE_MULTICLASS_TEMPLATE"
+data "StackId" "WSO_WILDSHAPE_MULTICLASS_BARBARIAN"
+data "Boosts" "IF(HasPassive('RecklessAttack',context.Source)):UnlockInterrupt(WSO_Interrupt_RecklessAttack);IF(HasPassive('RageUnlock',context.Source)):UnlockSpell(WSO_Shout_Rage);IF(HasPassive('RageFrenzyUnlock',context.Source)):UnlockSpell(WSO_Shout_Rage_Frenzy);IF(HasPassive('TotemSpirit_Bear',context.Source)):UnlockSpell(WSO_Shout_Rage_Totem_Bear);IF(HasPassive('TotemSpirit_Bear',context.Source)):UnlockSpell(WSO_Shout_UnrelentingFerocity);IF(HasPassive('TotemSpirit_Eagle',context.Source)):UnlockSpell(WSO_Shout_Rage_Totem_Eagle);IF(HasPassive('TotemSpirit_Eagle',context.Source)):UnlockSpell(WSO_Projectile_DivingStrike);IF(HasPassive('TotemSpirit_Elk',context.Source)):UnlockSpell(WSO_Shout_Rage_Totem_Elk);IF(HasPassive('TotemSpirit_Elk',context.Source)):UnlockSpell(WSO_Rush_Primal_Stampede);IF(HasPassive('TotemSpirit_Tiger',context.Source)):UnlockSpell(WSO_Shout_Rage_Totem_Tiger);IF(HasPassive('TotemSpirit_Tiger',context.Source)):UnlockSpell(WSO_Zone_TigersBloodlust);IF(HasPassive('TotemSpirit_Wolf',context.Source)):UnlockSpell(WSO_Shout_Rage_Totem_Wolf);IF(HasPassive('TotemSpirit_Wolf',context.Source)):UnlockSpell(WSO_Shout_PackHowl_Barbarian);IF(HasPassive('WildMagicRage',context.Source)):UnlockSpell(WSO_Shout_Rage_WildMagic);IF(HasPassive('WildMagicRage',context.Source)):UnlockSpell(WSO_Shout_MagicAwareness)"
+
+new entry "WSO_Rage_Boosts"
+type "PassiveData"
+using "Rage_Rage_Boosts"
+data "Boosts" "Advantage(Ability, Strength); Advantage(SavingThrow, Strength); Resistance(Slashing, Resistant); Resistance(Piercing, Resistant); Resistance(Bludgeoning, Resistant);IF(IsMeleeAttack() or IsRangedUnarmedAttack()):DamageBonus(LevelMapValue(RageDamage));FallDamageMultiplier(0.5)"
+
+new entry "WSO_WILDSHAPE_MULTICLASS_FIGHTER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WSO_WILDSHAPE_MULTICLASS_TEMPLATE"
+data "StackId" "WSO_WILDSHAPE_MULTICLASS_FIGHTER"
+data "Boosts" "UnlockSpell(WSO_Shout_SecondWind);IF(ClassLevelHigherOrEqualThan(2,'Fighter')):UnlockSpell(WSO_Shout_ActionSurge)"
+
+new entry "WSO_WILDSHAPE_MULTICLASS_MONK"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WSO_WILDSHAPE_MULTICLASS_TEMPLATE"
+data "StackId" "WSO_WILDSHAPE_MULTICLASS_MONK"
+data "Boosts" "IF(ClassLevelHigherOrEqualThan(2,'Monk')):UnlockSpell(WSO_Shout_PatientDefense);IF(ClassLevelHigherOrEqualThan(2,'Monk')):UnlockSpell(WSO_Shout_Dash_StepOfTheWind);IF(ClassLevelHigherOrEqualThan(2,'Monk')):UnlockSpell(WSO_Shout_Disengage_StepOfTheWind);IF(ClassLevelHigherOrEqualThan(5,'Monk')):UnlockSpell(WSO_Target_StunningStrike_Unarmed)"
+
+new entry "WSO_WILDSHAPE_MULTICLASS_PALADIN"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WSO_WILDSHAPE_MULTICLASS_TEMPLATE"
+data "StackId" "WSO_WILDSHAPE_MULTICLASS_PALADIN"
+data "Boosts" "IF(ClassLevelHigherOrEqualThan(2,'Paladin')):UnlockSpell(WSO_Target_Smite_Divine_Unlock,AddChildren);IF(ClassLevelHigherOrEqualThan(2,'Paladin')):UnlockSpell(WSO_Target_Smite_Divine_Critical_Unlock,AddChildren)"
+data "OnApplyFunctors" "IF(ClassLevelHigherOrEqualThan(2,'Paladin') and not HasStatus('WSO_WILDSHAPE_SMITE_TOGGLE_HOLDER')):ApplyStatus(WSO_WILDSHAPE_SMITE_TOGGLE_HOLDER,100,-1)"
+
+new entry "WSO_WILDSHAPE_SMITE_TOGGLE_HOLDER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "WSO_WILDSHAPE_SMITE_TOGGLE_HOLDER"
+data "Passives" "WSO_Wildshape_Multiclass_SmiteToggle"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
+new entry "WSO_Wildshape_Multiclass_SmiteToggle"
+type "PassiveData"
+data "DisplayName" "hef4a39cfg68e5g41c2g92f8gd01714406ead;1"
+data "Description" "hcff9b585g9293g4ffbgb89fg0252de143c60;1"
+data "Icon" "Action_Paladin_DivineSmite"
+data "Properties" "IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar;Highlighted;Temporary"
+data "ToggleOnFunctors" "ApplyStatus(WSO_WILDSHAPE_SMITE_TOGGLE_TECHNICAL,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(WSO_WILDSHAPE_SMITE_TOGGLE_TECHNICAL)"
+
+new entry "WSO_WILDSHAPE_SMITE_TOGGLE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "WSO_WILDSHAPE_SMITE_TOGGLE_TECHNICAL"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
+
+new entry "WSO_WILDSHAPE_MULTICLASS_ROGUE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WSO_WILDSHAPE_MULTICLASS_TEMPLATE"
+data "StackId" "WSO_WILDSHAPE_MULTICLASS_ROGUE"
+data "Boosts" "UnlockInterrupt(WSO_Interrupt_SneakAttack);UnlockInterrupt(WSO_Interrupt_SneakAttack_Critical);IF(ClassLevelHigherOrEqualThan(2,'Rogue')):UnlockSpell(WSO_Shout_Dash_BonusAction);IF(ClassLevelHigherOrEqualThan(2,'Rogue')):UnlockSpell(WSO_Shout_Hide_BonusAction);IF(ClassLevelHigherOrEqualThan(2,'Rogue')):UnlockSpell(WSO_Shout_Disengage_BonusAction)"
+
+
+
+

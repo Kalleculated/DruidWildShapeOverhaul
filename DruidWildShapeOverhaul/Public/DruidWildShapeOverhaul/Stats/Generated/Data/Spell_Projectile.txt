@@ -513,3 +513,10 @@ data "TooltipDamageList" "DealDamage(3d6+4,Bludgeoning);DealDamage(3d6+4,Slashin
 data "SpellAnimation" ",,;,,;6c816a60-d5e5-45c4-9b4c-27bf3f1cca4e,,;,,;,,;,,;,,;,,;,,"
 data "SpellFlags" "IsJump;IgnoreVisionBlock;RangeIgnoreVerticalThreshold;CannotTargetItems"
 
+new entry "WSO_Projectile_Jump_GiantEagle"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fly_Spell"
+data "CastSound" "CrSpell_Cast_GiantEagle_Fly"
+data "SpellFlags" "HasHighGroundRangeExtension;IgnoreVisionBlock;RangeIgnoreVerticalThreshold;Stealth;Invisible;CannotTargetCharacter;CannotTargetItems;NoAOEDamageOnLand;IsJump;Wildshape"
+data "SpellActionType" ""

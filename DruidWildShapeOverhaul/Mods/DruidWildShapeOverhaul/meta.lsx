@@ -6,7 +6,7 @@
       <children>
         <node id="Dependencies" />
         <node id="ModuleInfo">
-          <attribute id="Author" type="LSWString" value="kalleculated" />
+          <attribute id="Author" type="LSWString" value="Kalle and ShadyDax" />
           <!-- put your name -->
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
           <attribute id="Description" type="LSWString" value="" />
@@ -17,7 +17,7 @@
           <attribute id="MD5" type="LSString" value="" />
           <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
           <attribute id="MenuLevelName" type="FixedString" value="" />
-          <attribute id="Name" type="FixedString" value="DruidWildShapeOverhaul" />
+          <attribute id="Name" type="FixedString" value="Druid Wild Shape Overhaul" />
           <!-- Change customizer to your mods folder name -->
           <attribute id="NumPlayers" type="uint8" value="16" />
           <attribute id="PhotoBooth" type="FixedString" value="" />
