@@ -2620,7 +2620,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantSpider_Wildshape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_GiantSpider_Wildshape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="0.1" />
@@ -3237,7 +3237,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantSpider_Wildshape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_GiantSpider_Wildshape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3395,7 +3395,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantSpider_Wildshape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_GiantSpider_Wildshape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3561,7 +3561,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantSpider_Wildshape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_GiantSpider_Wildshape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3697,7 +3697,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantSpider_Wildshape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_GiantSpider_Wildshape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3886,7 +3886,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_GiantWolfSpider_Wildshape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_GiantWolfSpider_Wildshape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -6121,13 +6121,13 @@
 				<!-- Dire Raven WSO -->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="55eaf240-b3f3-4d1f-98cd-830d09eaafac" />
-					<attribute id="Name" type="LSString" value="Raven_Dire_Custom_PlayerWildshape" />
+					<attribute id="Name" type="LSString" value="Raven_Dire_PlayerWildshape" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Wildshape" />
 					<attribute id="ParentTemplateId" type="FixedString" value="d5676054-fe07-4c6d-8433-b79b33a80a89" />
 					<attribute id="Icon" type="FixedString" value="02cffb7c-0f9d-8036-a270-e1d4ad7c007f-_(Icon_Raven)" />
-					<attribute id="Stats" type="FixedString" value="Dire_Raven_Custom_Wildshape_Player" />
+					<attribute id="Stats" type="FixedString" value="Dire_Raven_Wildshape_Player" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="359ee994-e619-a774-f449-14b86beb3120" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="21952fa0-e40f-8647-9b37-ba562a8b6ca7" />
 					<attribute id="VocalBoredResourceID" type="FixedString" value="696c35bf-e520-42f2-22b1-e0f1c326906a" />
@@ -11870,168 +11870,6 @@
 								</node>
 								<node id="Skill">
 									<attribute id="Skill" type="FixedString" value="Target_Tentacle_DisplacerBeast" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Panther_Moon" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Claw_Panther_Moon" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Pounce_Panther_Moon" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Ambush_Panther_Moon" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Ambush_Jump_Panther_Moon" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_JugularBite_Panther_Moon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />

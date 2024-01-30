@@ -17,7 +17,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Combat Improvement"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_DeepRothe;Shout_WildShape_Combat_DeepRothe;Shout_WildShape_Raven_Dire_Custom;Shout_WildShape_Combat_Raven_Dire_Custom;Shout_WildShape_Raven;Shout_WildShape_Combat_Raven;Shout_WildShape_Bat;Shout_WildShape_Combat_Bat"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_DeepRothe;Shout_WildShape_Combat_DeepRothe;WSO_Shout_WildShape_Raven_Dire;WSO_Shout_WildShape_Combat_Raven_Dire;Shout_WildShape_Raven;Shout_WildShape_Combat_Raven;Shout_WildShape_Bat;Shout_WildShape_Combat_Bat"/>
                     <attribute id="UUID" type="guid" value="94081296-f79b-4294-973e-111dabea22ca"/>
                 </node>
 				<node id="SpellList">
@@ -53,7 +53,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Brown;Shout_WildShape_Bear_Grey;Shout_WildShape_Bear_Polar;Shout_WildShape_Raven_Dire_Custom;Shout_WildShape_Spider_Venom;Shout_WildShape_Spider_Giant_WSO"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Brown;Shout_WildShape_Bear_Grey;Shout_WildShape_Bear_Polar;WSO_Shout_WildShape_Raven_Dire;Shout_WildShape_Spider_Venom;Shout_WildShape_Spider_Giant_WSO"/>
                     <attribute id="UUID" type="guid" value="c15f9224-a600-4a10-a5e7-642eed9c4222"/>
                 </node>
 				<node id="SpellList">

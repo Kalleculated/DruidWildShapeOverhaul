@@ -214,6 +214,8 @@
 	<content contentuid="928f65af-2edc-439f-b20f-5252d808ccd6" version="1">Fire Myrmidon Resistances</content>
 	<!-- Fire Myrmidon Passives Description -->
 	<content contentuid="2affb572-ba51-4960-9a86-1eef2a420099" version="1">As Fire Myrmidon you are resistant to Bludgeoning, Slashing and Piercing damage. You're also immune to Fire and Poison damage, and to being &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrified&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt;.</content>
+	<!-- Frenzied Strike (Wild Shape) -->
+	<content contentuid="be288494-6363-47c8-bf85-e6e6e09324b1" version="1">Frenzied Strike (Wild Shape)</content>
 </contentList>
 
 
