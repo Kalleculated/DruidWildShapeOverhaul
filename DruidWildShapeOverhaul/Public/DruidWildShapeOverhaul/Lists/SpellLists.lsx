@@ -27,7 +27,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape Combat 8"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Wolf_Winter;Shout_Wildshape_Combat_Wolf_Winter;Shout_WildShape_Werewolf;Shout_WildShape_Combat_Werewolf;"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Wolf_Winter;Shout_Wildshape_Combat_Wolf_Winter"/>
                     <attribute id="UUID" type="guid" value="dcdfdf72-16cd-473a-a15f-31a85381c3aa"/>
                 </node>
 				<node id="SpellList">
