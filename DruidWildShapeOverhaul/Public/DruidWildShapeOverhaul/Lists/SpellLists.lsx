@@ -7,7 +7,7 @@
 				<!-- Moon Druid -->
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape Combat"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Combat;Shout_WildShape_Utility;Shout_WildShape_Combat_Utility;Shout_WildShape_Spider_Giant_Moon_WSO;Shout_WildShape_Combat_Spider_Giant_Moon_WSO;Shout_WildShape_Spider_Venom_Moon;Shout_WildShape_Combat_Spider_Venom_Moon;Shout_WildShape_Boar_Giant;Shout_Wildshape_Combat_Boar_Giant;Shout_Wildshape_Panther_Moon;Shout_Wildshape_Combat_Panther_Moon;Shout_WildShape_Wolf_Dire;Shout_WildShape_Combat_Wolf_Dire;Shout_WildShape_Giant_Hyena;Shout_WildShape_Combat_Giant_Hyena"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Combat;Shout_WildShape_Utility;Shout_WildShape_Combat_Utility;WSO_Shout_WildShape_Spider_Giant_Moon;WSO_Shout_WildShape_Combat_Spider_Giant_Moon;Shout_WildShape_Spider_Venom_Moon;Shout_WildShape_Combat_Spider_Venom_Moon;Shout_WildShape_Boar_Giant;Shout_Wildshape_Combat_Boar_Giant;Shout_Wildshape_Panther_Moon;Shout_Wildshape_Combat_Panther_Moon;Shout_WildShape_Wolf_Dire;Shout_WildShape_Combat_Wolf_Dire;Shout_WildShape_Giant_Hyena;Shout_WildShape_Combat_Giant_Hyena"/>
                     <attribute id="UUID" type="guid" value="2df1a00f-a66a-4240-a505-6a7835f2f1fa"/>
                 </node>
 				<node id="SpellList">
@@ -53,7 +53,7 @@
                 </node>
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid Wild Shape 6"/>
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Brown;Shout_WildShape_Bear_Grey;Shout_WildShape_Bear_Polar;WSO_Shout_WildShape_Raven_Dire;Shout_WildShape_Spider_Venom;Shout_WildShape_Spider_Giant_WSO"/>
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Brown;Shout_WildShape_Bear_Grey;Shout_WildShape_Bear_Polar;WSO_Shout_WildShape_Raven_Dire;Shout_WildShape_Spider_Venom;WSO_Shout_WildShape_Spider_Giant"/>
                     <attribute id="UUID" type="guid" value="c15f9224-a600-4a10-a5e7-642eed9c4222"/>
                 </node>
 				<node id="SpellList">

@@ -1895,7 +1895,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -1985,7 +1985,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2270,7 +2270,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_Owlbear_Wildshape_Smash_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_Owlbear_Wildshape_Smash" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2297,7 +2297,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Owlbear_Wildshape_Lunge_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Projectile_Jump_Owlbear_Wildshape_Lunge" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2511,7 +2511,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_Owlbear_Wildshape_Smash_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_Owlbear_Wildshape_Smash" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2538,7 +2538,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Owlbear_Wildshape_Lunge_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Projectile_Jump_Owlbear_Wildshape_Lunge" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2651,7 +2651,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_ToxicSpit_PhaseSpider_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Projectile_ToxicSpit_PhaseSpider" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2682,7 +2682,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_EtherealJaunt_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_EtherealJaunt" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2930,7 +2930,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_ToxicSpit_PhaseSpiderQueen_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Projectile_ToxicSpit_PhaseSpiderQueen" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -2961,7 +2961,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_Giant_WildShape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Web_Spider_Giant_WildShape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3015,7 +3015,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_EtherealJaunt_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_EtherealJaunt" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3123,7 +3123,7 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="79d2361b-32d4-4a8e-9f95-531a214600ce" />
 					<attribute id="Icon" type="FixedString" value="21ef765b-2808-0a1d-cd92-c2bc076cfcae-_(Icon_Spider_Summon)" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Wildshape" />
 					<attribute id="BloodType" type="FixedString" value="Green" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="31b4c938-5314-1fe8-39af-1473a721b829" />
@@ -3210,7 +3210,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_Giant_WildShape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Web_Spider_Giant_WildShape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3276,7 +3276,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="b655dd46-bc5f-43c1-b853-bef81caad518" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_4" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_4" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -3287,7 +3287,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="b53198ab-d373-4ef5-88f7-e08a21bf82df" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_6" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_6" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -3298,7 +3298,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="aa0c7d04-166b-4276-bc02-928ebda7203f" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_8" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_8" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -3309,7 +3309,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c387e730-555b-44e7-8c4c-1b64a0e38421" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_10" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_10" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -3341,7 +3341,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_Giant_WildShape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Web_Spider_Giant_WildShape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3368,7 +3368,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Cocoon_Spider_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Cocoon_Spider" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3434,7 +3434,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="e7438fa4-a6a1-4f71-9084-aa556611ec1e" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_12" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_12" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -3447,7 +3447,7 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="79d2361b-32d4-4a8e-9f95-531a214600ce" />
 					<attribute id="Icon" type="FixedString" value="21ef765b-2808-0a1d-cd92-c2bc076cfcae-_(Icon_Spider_Summon)" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Wildshape" />
 					<attribute id="BloodType" type="FixedString" value="Green" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="31b4c938-5314-1fe8-39af-1473a721b829" />
@@ -3534,7 +3534,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_Giant_WildShape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Web_Spider_Giant_WildShape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3600,7 +3600,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="95685843-e093-4044-87ca-1212dca30cad" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_4" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_4" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -3611,7 +3611,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="9957bf0b-c223-465c-993b-14671e893511" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_6" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_6" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -3643,7 +3643,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Web_Spider_Giant_WildShape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Web_Spider_Giant_WildShape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3670,7 +3670,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Cocoon_Spider_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Cocoon_Spider" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -3734,7 +3734,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="180c5105-4334-47e3-8953-c869899b1a21" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_8" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_8" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -3745,7 +3745,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="d08c2ca6-0c4d-4261-9135-7b19846a85e6" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_10" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_10" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="UseStandAtDestination" type="bool" value="True" />
@@ -3758,7 +3758,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="f941f434-2255-44d5-b9b3-f4db00346542" />
-					<attribute id="Stats" type="FixedString" value="Spider_Giant_Wildshape_WSO_12" />
+					<attribute id="Stats" type="FixedString" value="WSO_Spider_Giant_Wildshape_12" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -3859,7 +3859,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Web_Weaker_Spider_WildShape_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Web_Weaker_Spider_WildShape" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -4204,7 +4204,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_GiantHyena_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_PackHowl_GiantHyena" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -4339,7 +4339,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_GiantHyena_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_PackHowl_GiantHyena" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -5340,7 +5340,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_SaberTooth_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_SaberTooth" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -6456,7 +6456,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_Wolf_Dire_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_PackHowl_Wolf_Dire" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -6565,7 +6565,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_Wolf_Dire_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_PackHowl_Wolf_Dire" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -6777,7 +6777,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_Wolf_Dire_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_PackHowl_Wolf_Dire" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -7092,7 +7092,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_PackHowl_Wolf_Dire_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_PackHowl_Wolf_Dire" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -8453,7 +8453,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -8567,7 +8567,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -8672,7 +8672,7 @@
 						<node id="SkillList">
 								<children>
 									<node id="Skill">
-										<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+										<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 										<attribute id="SpellCastingAbility" type="uint8" value="0" />
 										<attribute id="LearningStrategy" type="uint8" value="0" />
 										<attribute id="ScoreModifier" type="float" value="1" />
@@ -8871,7 +8871,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -8999,7 +8999,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -9104,7 +9104,7 @@
 						<node id="SkillList">
 								<children>
 									<node id="Skill">
-										<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+										<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 										<attribute id="SpellCastingAbility" type="uint8" value="0" />
 										<attribute id="LearningStrategy" type="uint8" value="0" />
 										<attribute id="ScoreModifier" type="float" value="1" />
@@ -9303,7 +9303,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -9445,7 +9445,7 @@
 						<node id="SkillList">
 								<children>
 									<node id="Skill">
-										<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+										<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 										<attribute id="SpellCastingAbility" type="uint8" value="0" />
 										<attribute id="LearningStrategy" type="uint8" value="0" />
 										<attribute id="ScoreModifier" type="float" value="1" />
@@ -9645,7 +9645,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -9759,7 +9759,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -9968,7 +9968,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -10096,7 +10096,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -10305,7 +10305,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -10419,7 +10419,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GoadingRoar_Bear_Summon_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Shout_GoadingRoar_Bear_Summon" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -11325,7 +11325,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Bat_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_Bat" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -11395,7 +11395,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="d011a942-cb4c-4e25-b829-31c460631525" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hd02ee347g4500g4c7bgbd8dg1525d446e4df" version="1" />
 					<attribute id="Icon" type="FixedString" value="69823d16-f010-0b04-1587-8bf91db1d988-EQP_Unarmed_(Icon_Worg_Male)" />
-					<attribute id="Stats" type="FixedString" value="Worg_Wildshape_WSO" />
+					<attribute id="Stats" type="FixedString" value="WSO_Worg_Wildshape" />
 					<attribute id="Equipment" type="FixedString" value="EQP_Unarmed" />
 					<attribute id="CanClimbLadders" type="bool" value="False" />
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-a295-ba74d42f6266" />
@@ -11538,7 +11538,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="d3f68e16-ef25-40f2-bbcc-6c4709ba7ad4" />
-					<attribute id="Stats" type="FixedString" value="Worg_Wildshape_WSO_8" />
+					<attribute id="Stats" type="FixedString" value="WSO_Worg_Wildshape_8" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -11549,7 +11549,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="9bcabdc3-7911-49fe-a77b-d87b4cc123f2" />
-					<attribute id="Stats" type="FixedString" value="Worg_Wildshape_WSO_10" />
+					<attribute id="Stats" type="FixedString" value="WSO_Worg_Wildshape_10" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -11560,7 +11560,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="647b2833-af88-4e5c-b8c3-c3d91079c24d" />
-					<attribute id="Stats" type="FixedString" value="Worg_Wildshape_WSO_12" />
+					<attribute id="Stats" type="FixedString" value="WSO_Worg_Wildshape_12" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
@@ -11738,7 +11738,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_DeadlyLeap_Bulette_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Projectile_DeadlyLeap_Bulette" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -11765,7 +11765,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Bulette_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Target_Bite_Bulette" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -11792,7 +11792,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_ToxicSpit_Bulette_WSO" />
+									<attribute id="Skill" type="FixedString" value="WSO_Projectile_ToxicSpit_Bulette" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />

@@ -1,4 +1,5 @@
-new entry "Interrupt_RecklessAttack"
+// Not used ATM
+//new entry "Interrupt_RecklessAttack"
 type "InterruptData"
 data "DisplayName" "h701c1f32g4fccg44f3gafdbgdf0638885c02;1"
 data "Description" "h132e19c7gfdc7g41a4g9cd5ga1bd1106e5e7;1"

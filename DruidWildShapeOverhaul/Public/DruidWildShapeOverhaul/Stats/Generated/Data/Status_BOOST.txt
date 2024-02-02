@@ -189,7 +189,7 @@ data "Boosts" "ActionResource(Movement,6,0);UnlockSpell(Target_Worg_Rampage_Bonu
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 
-new entry "EXPOSING_BITE_WSO"
+new entry "WSO_EXPOSING_BITE"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h4f96e2fag9dd8g4072g965dg95cfefbeb623;2"
