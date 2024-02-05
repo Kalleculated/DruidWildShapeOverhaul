@@ -583,6 +583,7 @@ data "Description" "b655451e-4fb4-479e-936c-9c252cf4576a;2"
 data "UseCosts" "BonusActionPoint:1"
 data "Icon" "Spell_Transmutation_LongJump"
 data "SpellFlags" "IsJump;IgnoreVisionBlock;RangeIgnoreVerticalThreshold;HasHighGroundRangeExtension;IsEnemySpell"
+data "SpellActionType" "Jump"
 
 new entry "WSO_Target_Web_Weaker_Spider_WildShape"
 type "SpellData"

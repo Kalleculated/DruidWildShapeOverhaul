@@ -1,27 +1,121 @@
-new spellset "CommonSummonActions_Wildshape"
+new spellset "CommonBeastActions_Wildshape"
 add spell "Projectile_Jump"
 add spell "Target_Shove_Wildshape"
 add spell "Shout_Hide"
 add spell "Shout_Disengage"
-add spell "Shout_Dash_NPC"
+add spell "Shout_Dash"
 
 new spellset "CommonCritterActions_Wildshape"
 add spell "Projectile_Jump"
 add spell "Shout_Hide"
 add spell "Shout_Disengage"
-add spell "Shout_Dash_NPC"
+add spell "Shout_Dash"
+
+new spellset "CommonSpiderCritterActions_Wildshape"
+add spell "Projectile_Jump_Spider_Summon"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
+
+new spellset "CommonFlyingCritterActions_Wildshape"
+add spell "Projectile_Fly"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
+
+new spellset "CommonDireRavenActions_Wildshape"
+add spell "Projectile_Fly"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
+
+new spellset "CommonGiantEagleActions_Wildshape"
+add spell "Projectile_Fly"
+add spell "Target_Shove_Wildshape"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
 
 new spellset "CommonMyrmidonActions_Wildshape"
+add spell "Projectile_Fly"
 add spell "Target_Shove_Wildshape"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
 
-new spellset "CommonCatSummonActions_Wildshape"
+new spellset "CommonSpiderActions_Wildshape"
+add spell "Projectile_Jump_Spider_WildShape"
 add spell "Target_Shove_Wildshape"
-add spell "Projectile_Jump_Panther"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
 
-new spellset "WSO_CommonPantherActions_Wildshape"
+new spellset "CommonPhaseSpiderActions_Wildshape"
+add spell "Target_EtherealJump"
+add spell "WSO_Target_EtherealJaunt"
+add spell "Target_Shove_Wildshape"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
+
+new spellset "CommonPantherActions_Wildshape"
 add spell "Projectile_Jump_Panther"
 add spell "Target_Shove_Wildshape"
 add spell "Shout_Hide"
 add spell "Shout_Disengage"
-add spell "Shout_Dash_NPC"
+add spell "Shout_Dash"
+add spell "Shout_Hide_BonusAction_Panther"
+add spell "Shout_Disengage_BonusAction"
+
+new spellset "CommonSaberTigerActions_Wildshape"
+add spell "Projectile_Jump_Panther"
+add spell "Target_Shove_Wildshape"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
+
+new spellset "CommonBuletteActions_Wildshape"
+add spell "Projectile_StandingLeap_Bulette"
+add spell "Target_Shove_Wildshape"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash"
+
+
+
+
+
+
+
+
+
+
+
+new entry "Projectile_Jump_Spider_WildShape"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Jump_Spider"
+data "TargetRadius" "9"
+
+new entry "Projectile_Jump_Spider_Queen"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Jump_Spider"
+data "Trajectories" "5ac723b1-fbed-4905-bf6c-cd0838d1eaa3,fd4f0d2a-423a-7ab5-da79-d8c0e83c3912,7618d640-bf4c-02f0-c87c-5fea4622b449"
+
+new entry "Projectile_Jump_Spider_Summon"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Jump_Spider"
+data "TargetRadius" "4.5"
+data "Trajectories" "36c7f460-5d81-45ac-bde1-24352dd1761d,8fae5f44-36b6-81ab-e12f-11a31fdef39a,b30b5873-eb59-fe73-2180-669879c8dbc7"
+
+new entry "Projectile_Jump_Spider_Tiny"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Jump_Spider"
+data "Cooldown" ""
+data "TargetRadius" "4.5"
+data "Trajectories" "52c2a22b-72e9-4d19-9a15-afe66c049256,f100430b-ff3e-291b-3b1c-b86cce594910,9d89d761-04eb-0ae4-a27b-d072045525fe"
+
 

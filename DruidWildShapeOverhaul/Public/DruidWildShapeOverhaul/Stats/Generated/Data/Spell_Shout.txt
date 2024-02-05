@@ -1612,3 +1612,4 @@ data "SpellType" "Shout"
 using "Shout_Hide_BonusAction"
 data "Icon" "Action_Hide"
 data "DisplayName" "df78c0f9-9a73-4940-8904-820fd3e9d9f5;1"
+
