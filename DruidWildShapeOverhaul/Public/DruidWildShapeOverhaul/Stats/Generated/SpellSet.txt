@@ -1,5 +1,15 @@
 new spellset "CommonSummonActions_Wildshape"
+add spell "Projectile_Jump"
 add spell "Target_Shove_Wildshape"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash_NPC"
+
+new spellset "CommonCritterActions_Wildshape"
+add spell "Projectile_Jump"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash_NPC"
 
 new spellset "CommonMyrmidonActions_Wildshape"
 add spell "Target_Shove_Wildshape"
@@ -7,3 +17,11 @@ add spell "Target_Shove_Wildshape"
 new spellset "CommonCatSummonActions_Wildshape"
 add spell "Target_Shove_Wildshape"
 add spell "Projectile_Jump_Panther"
+
+new spellset "WSO_CommonPantherActions_Wildshape"
+add spell "Projectile_Jump_Panther"
+add spell "Target_Shove_Wildshape"
+add spell "Shout_Hide"
+add spell "Shout_Disengage"
+add spell "Shout_Dash_NPC"
+

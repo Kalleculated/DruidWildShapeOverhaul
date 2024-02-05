@@ -40,7 +40,7 @@
                     <attribute id="Spells" type="LSString" value="Shout_WildShape_Combat_Myrmidon_Air;Shout_WildShape_Combat_Myrmidon_Earth;Shout_WildShape_Combat_Myrmidon_Fire;Shout_WildShape_Combat_Myrmidon_Water;Shout_WildShape_Myrmidon_Air;Shout_WildShape_Myrmidon_Earth;Shout_WildShape_Myrmidon_Fire;Shout_WildShape_Myrmidon_Water"/>
                     <attribute id="UUID" type="guid" value="fa0b047d-4ff6-4ba0-8911-6c0f2f13be22"/>
                 </node>
-				<!-- Other Druids -->
+				<!-- Land/Spore Druid -->
 				<node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Wild Shape"/>
                     <attribute id="Spells" type="LSString" value="Shout_WildShape;Shout_WildShape_Wolf;Shout_WildShape_Spider_Giant_Wolf;Shout_Wildshape_Panther;Shout_Wildshape_Boar;Shout_WildShape_Hyena;Shout_WildShape_Bear_Black;Shout_WildShape_Utility;"/>

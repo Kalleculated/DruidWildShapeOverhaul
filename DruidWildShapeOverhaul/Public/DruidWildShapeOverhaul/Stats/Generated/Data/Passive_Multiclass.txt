@@ -52,7 +52,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "WSO_WILDSHAPE_MULTICLASS_TEMPLATE"
 data "StackId" "WSO_WILDSHAPE_MULTICLASS_PALADIN"
-data "Boosts" "IF(ClassLevelHigherOrEqualThan(2,'Paladin')):UnlockSpell(WSO_Target_Smite_Divine_Unlock,AddChildren);IF(ClassLevelHigherOrEqualThan(2,'Paladin')):UnlockSpell(WSO_Target_Smite_Divine_Critical_Unlock,AddChildren)"
+data "Boosts" "UnlockSpell(WSO_Target_LayOnHands);UnlockSpell(WSO_Target_LayOnHands_SmallHeal);UnlockSpell(WSO_Target_LayOnHands_BigHeal);UnlockSpell(WSO_Target_LayOnHands_Cure);IF(ClassLevelHigherOrEqualThan(2,'Paladin')):UnlockSpell(WSO_Target_Smite_Divine_Unlock,AddChildren);IF(ClassLevelHigherOrEqualThan(2,'Paladin')):UnlockSpell(WSO_Target_Smite_Divine_Critical_Unlock,AddChildren);"
 data "OnApplyFunctors" "IF(ClassLevelHigherOrEqualThan(2,'Paladin') and not HasStatus('WSO_WILDSHAPE_SMITE_TOGGLE_HOLDER')):ApplyStatus(WSO_WILDSHAPE_SMITE_TOGGLE_HOLDER,100,-1)"
 
 new entry "WSO_WILDSHAPE_SMITE_TOGGLE_HOLDER"
@@ -80,12 +80,22 @@ data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 
 
+
 new entry "WSO_WILDSHAPE_MULTICLASS_ROGUE"
 type "StatusData"
 data "StatusType" "BOOST"
 using "WSO_WILDSHAPE_MULTICLASS_TEMPLATE"
 data "StackId" "WSO_WILDSHAPE_MULTICLASS_ROGUE"
 data "Boosts" "UnlockInterrupt(WSO_Interrupt_SneakAttack);UnlockInterrupt(WSO_Interrupt_SneakAttack_Critical);IF(ClassLevelHigherOrEqualThan(2,'Rogue')):UnlockSpell(WSO_Shout_Dash_BonusAction);IF(ClassLevelHigherOrEqualThan(2,'Rogue')):UnlockSpell(WSO_Shout_Hide_BonusAction);IF(ClassLevelHigherOrEqualThan(2,'Rogue')):UnlockSpell(WSO_Shout_Disengage_BonusAction)"
+
+new entry "TotemSpirit_Eagle"
+type "PassiveData"
+data "DisplayName" "h58a40738g192bg4fb1gb176g481b6124307b;2"
+data "Description" "h00ad4110g05c2g4670ga040gfc83664b069d;5"
+data "Icon" "Action_Barbarian_Rage_EagleTotem"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_Rage_Totem_Eagle);UnlockSpell(Projectile_DivingStrike)"
+
 
 
 

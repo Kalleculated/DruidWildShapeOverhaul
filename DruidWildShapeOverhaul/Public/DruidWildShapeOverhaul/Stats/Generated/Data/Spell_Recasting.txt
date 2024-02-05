@@ -1,3 +1,9 @@
+new entry "Target_Moonbeam_Move"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Moonbeam_Move"
+data "Icon" "WSO_Skill_Druid_MoonBeam_Move"
+
 new entry "MOONBEAM_OWNER"
 type "StatusData"
 data "StatusType" "BOOST"
