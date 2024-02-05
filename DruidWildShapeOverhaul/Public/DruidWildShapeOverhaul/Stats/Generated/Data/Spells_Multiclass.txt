@@ -451,7 +451,7 @@ data "UseCosts" "BonusActionPoint:1"
 data "SpellStyleGroup" "Class"
 data "SpellFlags" "IsMelee;IsHarmful;Wildshape"
 
-/not used ATM
+//Unused atm
 //new entry "WSO_Rage_Frenzied_Strike_Passive"
 type "PassiveData"
 data "DisplayName" "hee55a2e3g32deg47b5ga2fcg71970c12d3d4;1"
@@ -466,7 +466,7 @@ data "StatsFunctorContext" "OnCast;OnStatusApplied;OnStatusRemoved"
 data "Conditions" "not HasHigherPriorityExtraAttackQueued('WILDSTRIKE_2_EXTRA_ATTACK_Q',context.Source) and not HasStatus('WILDSTRIKE_2_EXTRA_ATTACK_Q',context.Source) and not HasAnyExtraAttack(context.Source) and not HasActionResource('ActionPoint', 1, 0, false, false, context.Source) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source) and not HasStatus('WSO_RAGE_FRENZIED_STRIKE',context.Source)"
 data "StatsFunctors" "ApplyStatus(WSO_RAGE_FRENZIED_STRIKE,100,1)"
 
-/not used ATM
+//Unused atm
 //new entry "WSO_RAGE_FRENZIED_STRIKE"
 type "StatusData"
 data "StatusType" "BOOST"
